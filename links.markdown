@@ -15,7 +15,7 @@ When I think about how I’d like to spend my days alive (and consequently remem
 
 ### ~Not~ in the News
 
-- I maintain [securecloudX ](https://securecloudx.pages.dev) - a free & open source platform to learn Cloud Security Engineering & Cloud Penetration Testing!
+- I maintain [securecloudX ](https://securecloudx.pages.dev) - a free & open source platform to learn Cloud Security Engineering & Cloud Penetration Testing! I love Software, cloud, DevOps and it's matter security.
 - 2021-2025: Served the highest position of privilege on earth.
 
 ### 2025
@@ -34,3 +34,5 @@ When I think about how I’d like to spend my days alive (and consequently remem
 ### 2023
 - November 31: Joined Global tech program - [Microsoft](https://mvp.microsoft.com/en-US/studentambassadors/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444)
 
+
+In my human time  I talk astrophysics, poetry, drawing wisdom from books on life and business. And walking beside many as a mentor—guiding with heart and hope.

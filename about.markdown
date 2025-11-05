@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<div class="profile-card">
+<!-- <div class="profile-card">
   <div class="profile-image">
     <img src="../images/2025/11/profile-ronney.jpg" alt="Ronney Profile" />
   </div>
@@ -12,9 +12,9 @@ permalink: /about/
     <h1>I'm ronney | room thinker</h1>
     <p>I innovate, and get things done! that's the story of my life.</p>
   </div>
-</div>
+</div> -->
 
-I have NO other higher calling in this life below than to transform people's lives. If I do but one thing today, may I be human sunshine for someone.
+I innovate, and get things done! that's the story of my life.
 
 In this blog I will be writing primarily about my learning on:
 
@@ -31,4 +31,6 @@ LinkedIn - [Linkedin.com/in/ronney-otieno](https://www.linkedin.com/in/ronney-ot
 This blog is OpenSource, published using [Jekyll](https://jekyllrb.com/) and can be found in its entirety here [https://github.com/0tieno/Blog](https://github.com/0tieno/Blog)
 
 Full credit to [https://github.com/conradakunga/Blog](https://github.com/conradakunga/Blog)
+
+short story long - [www.ronneyotieno.me](www.ronneyotieno.me) [old version]
 
