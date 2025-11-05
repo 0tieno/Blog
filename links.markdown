@@ -1,34 +1,36 @@
 ---
 layout: page
-title: Links
+title: Work
 permalink: /links/
 draft: true
 ---
 
-## Individual Blogs
+Perhaps you've used a software I have built
 
-- [Ben Roberts' Digital Economy](https://www.digitaleconomy.ke/blog) - Accelerating Africa's Digital Growth
-- [Billy Okeyo](https://billy-okeyo.netlify.app/) - .NET, Angular
-- [Carlvin Mwange](https://carlvinjerry.com/) - F#, Python
-- [David Lemayian](https://davidlemayian.com/) - Technology
-- [Fredrick Kamau](https://fredkamau.com/) - .NET, Angular
-- [Jacob Chencha](http://blog.chenchatech.com/) - Technology
-- [Joseph Ndungi](https://dev.to/josephndungi) - Python, Software Development
-- [Kate Ratemo](https://kateratemo.co.ke/blog/) - Software Development, Web Applications
-- [Linet Kwamboka - The Economy Of Data](https://economyofdata.com/) - Data Science & AI
-- [Stanley Masinde](https://blog.stanleymasinde.com/) - Software Engineering, System design
+I have been fortunate to work with some amazing teams 
 
-## Communities
+And...
 
-- [TechTwirls](https://techtwirls.co.ke/) - Technology & Students
+When I think about how I’d like to spend my days alive (and consequently remembered for when no more), I think of giving everything I put my mind and body to, everything. They call it dying broke, having used time, chance, and perhaps luck for a death worth living. When I like it, I crown it.
 
-## Company Blogs
+### ~Not~ in the News
 
-- [Afroshok](https://afroshok.com/work) - Design, Software
-- [Innova](https://blogs.innova.co.ke/) - Software, Quants
-- [KopoKopo](https://kopokopo.medium.com/) - Payments
-- [PesaPal](https://www.pesapal.com/blog) - Payments
+- I maintain [securecloudX ](https://securecloudx.pages.dev) - a free & open source platform to learn Cloud Security Engineering & Cloud Penetration Testing!
+- 2021-2025: Served the highest position of privilege on earth.
 
-## Link Blogs
+### 2025
+-  Oct 9: [At 22] graduated IT preacher. My pulpit? The keyboard.
+- September: [bounced] [Experts Live Kenya](https://www.linkedin.com/posts/ronney-otieno_expertslivekenya-activity-7352788689451646976-Emrg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4xouABP-8dUpZKjEZeKvgvpktbliHpHtw) Speaker
+- Aug: [awarded Distinction] Cloud & Network Security
+- July: Started building professional software for [.ke](https://www.vergeadvisorypartners.co.ke)
+- April: Sat for my last undergrad exam
+- April: [awarded "A"] Defended my final year project
+- April 8: Open source creator
 
-- [.NET Tips](https://www.dntips.ir/) - Vahid Nasiri runs this Link aggregator from Iran
+
+### 2024
+- November 31: [As a Team] recognized by Microsoft ADC as the [Most Vibrant chapter in Kenya](https://www.linkedin.com/posts/computer-society-of-kirinyaga_cskcommunity-activity-7255655228568408064-R6lF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4xouABP-8dUpZKjEZeKvgvpktbliHpHtw)
+
+### 2023
+- November 31: Joined Global tech program - [Microsoft](https://mvp.microsoft.com/en-US/studentambassadors/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444)
+

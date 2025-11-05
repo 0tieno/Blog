@@ -16,18 +16,19 @@ permalink: /about/
 
 I have NO other higher calling in this life below than to transform people's lives. If I do but one thing today, may I be human sunshine for someone.
 
-In this blog I will be writing primarily about my learning:
+In this blog I will be writing primarily about my learning on:
 
-1. **Backend Software Engineering**
+1. **Backend Engineering - Java**
 2. **System Design, DSA**
-3. **...and philosophy**
+3. **...and little philosophy**
 
 All posts assume no, or little, prior knowledge of the subject matter and therefore should be useful regardless of your level of experience.
 
 I am currently building backend software at [Safaricom PLC](https://www.safaricom.co.ke)
 
-Perhaps you've used a software I have built
-
 LinkedIn - [Linkedin.com/in/ronney-otieno](https://www.linkedin.com/in/ronney-otieno)
 
-This blog is OpenSource, published using [Jekyll](https://jekyllrb.com/) and can be found in its entirety here [https://github.com/conradakunga/Blog](https://github.com/conradakunga/Blog)
+This blog is OpenSource, published using [Jekyll](https://jekyllrb.com/) and can be found in its entirety here [https://github.com/0tieno/Blog](https://github.com/0tieno/Blog)
+
+Full credit to [https://github.com/conradakunga/Blog](https://github.com/conradakunga/Blog)
+
