@@ -3,7 +3,9 @@ layout: default
 ---
 <div class="posts">
   {% assign latest_posts = site.posts | slice: 0, 15 %}
-  {% assign postsByWeek = latest_posts | group_by_exp:"post", "post.date | date: '%V'" %}
+  {% assign oldest_post = site.posts | last %}
+  {% assign oldest_date = oldest_post.date %}
+  {% assign postsByWeek = latest_posts | group_by_exp:"post", "post.date | minus: oldest_date | divided_by: 604800 | plus: 1" %}
   {% for week in postsByWeek %}
   <br />
   <h1> 📅 <b>Week {{week.name}}</b></h1>

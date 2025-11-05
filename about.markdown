@@ -4,78 +4,30 @@ title: About
 permalink: /about/
 ---
 
-I have been writing software professionally for decades. 
+<div class="profile-card">
+  <div class="profile-image">
+    <img src="../images/2025/11/profile-ronney.jpg" alt="Ronney Profile" />
+  </div>
+  <div class="profile-info">
+    <h1>I'm ronney | room thinker</h1>
+    <p>I innovate, and get things done! that's the story of my life.</p>
+  </div>
+</div>
 
-![MVP](../images/MVP_Badge_Avatar_Secondary_DarkBlue7694_RGB.png)
+I have NO other higher calling in this life below than to transform people's lives. If I do but one thing today, may I be human sunshine for someone.
 
-In this blog I will be writing primarily about:
+In this blog I will be writing primarily about my learning:
 
-1. **The Business of software**
-2. **Software development**
+1. **Backend Software Engineering**
+2. **System Design, DSA**
+3. **...and philosophy**
 
-The posts on software development assume no, or little, prior knowledge of the subject matter and therefore should be useful regardless of your level of experience.
+All posts assume no, or little, prior knowledge of the subject matter and therefore should be useful regardless of your level of experience.
 
-I am an entrepreneur, and co-founder of [Innova Limited](http://www.innova.co.ke/), where I lead the research and product development.
+I am currently building backend software at [Safaricom PLC](https://www.safaricom.co.ke)
 
-I am also the co-founder and a trustee of [Mzalendo Trust](https://mzalendo.com).
+Perhaps you've used a software I have built
 
-I have a keen interest in technology and software development in particular. I have architected, designed and developed solutions in supply chain, knowledge management, fintech and agri-tech.
-
-My work is currently running in production in 10 countries across various industries.
-
-For the last 15 years I have specialized in the fintech space and in particular capital markets. I have also designed and built dozens of integrations to core banking systems, accounting systems and payment gateways.
-
-Some of the organizations I have worked with in developing solutions include
-
-* Microsoft
-* Safaricom
-* Nokia
-* Standard Chartered Bank (Kenya)
-* Standard Chartered Bank (Uganda)
-* Ecobank (Ghana)
-* CAL Bank (Ghana)
-* I&M Bank (Kenya)
-* I&M Bank (Tanzania)
-* Family Bank (Kenya)
-* National Bank (Kenya)
-* SBM Bank (Kenya)
-* Bank Of Africa (Kenya)
-* Bank Of Africa (Uganda)
-* East African Breweries (Kenya)
-* Uganda Breweries (Uganda)
-* Farmers' Choice (Kenya)
-* ABSA Bank (Kenya)
-* Stanbic Bank (Kenya)
-* Kenya Commercial Bank (Kenya)
-* Sidian Bank (Kenya)
-* Centenary Bank (Uganda)
-
-I have also had the opportunity to collaborate with various governments to design and build solutions
-
-* Government Of Kenya
-* Government Of Uganda
-* Government Of Tanzania
-* Government of Botswana
-
-My focus is
-
-* Software architecture and design
-* Algorithm analysis and design
-* High performance computing
-* Artificial intelligence and machine learning
-* Alternative user and computing interfaces
-* Systems integration
-
-Over the years I have had the opportunity to work on several technology stacks including ASP.NET, C, C++, Python, PHP, Java, Visual Basic, Visual Basic.NET, Delphi, SQL Server, PostgreSQL, MySQL, Sybase, SQLite and Oracle.
-
-My current specialization is the .NET platform and in particular C# and F#. I have been a Microsoft MVP for over 15 years.
-
-I have a passion for learning, teaching and mentorship to share my knowledge, as well as consulting.
-
-Drop me a line.
-
-conradakunga -at- gmail.com
-
-LinkedIn - [Linkedin.com/in/conrad-akunga](https://www.linkedin.com/in/conrad-akunga)
+LinkedIn - [Linkedin.com/in/ronney-otieno](https://www.linkedin.com/in/ronney-otieno)
 
 This blog is OpenSource, published using [Jekyll](https://jekyllrb.com/) and can be found in its entirety here [https://github.com/conradakunga/Blog](https://github.com/conradakunga/Blog)

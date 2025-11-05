@@ -3,13 +3,16 @@ layout: page
 title: Archives
 permalink: /archives/
 ---
+
 {% assign count = site.posts | size %}
 {% capture total_words %}
-  {% posts_word_count total %}
+{% posts_word_count total %}
 {% endcapture %}
 
 ## Total ({{ count }} Posts)
 
+{% assign oldest_post = site.posts | last %}
+{% assign oldest_date = oldest_post.date %}
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
 {% assign yearCount = year.items | size %}
@@ -21,14 +24,14 @@ permalink: /archives/
 {% for month in postsByMonth %}
 {% assign monthCount = month.items | size %}
 
-### {{ month.name }} {{ year.name }} ({{monthCount}}  Posts)
+### {{ month.name }} {{ year.name }} ({{monthCount}} Posts)
 
- {% assign postsByWeek = month.items | group_by_exp:"post", "post.date | date: '%V'"  %}
+{% assign postsByWeek = month.items | group_by_exp:"post", "post.date | minus: oldest_date | divided_by: 604800 | plus: 1"  %}
 
-  {% for week in postsByWeek %}
+{% for week in postsByWeek %}
 
 #### 📅 Week {{week.name}}
-  
+
   <ol reversed type="i">
   {% for post in week.items %}
     <li>
