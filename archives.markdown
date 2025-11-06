@@ -5,9 +5,6 @@ permalink: /archives/
 ---
 
 {% assign count = site.posts | size %}
-{% capture total_words %}
-{% posts_word_count total %}
-{% endcapture %}
 
 ## Total ({{ count }} Posts)
 
