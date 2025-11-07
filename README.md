@@ -1,3 +1,5 @@
 # Blog
 
-This is the Jekyll source of my blog https://conradakunga.com/blog
+> backend software engineering - java, system design and little philosophy
+
+https://0tieno.github.io/Blog
