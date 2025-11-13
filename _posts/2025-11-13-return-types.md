@@ -27,6 +27,6 @@ public class Main {
 
 In the example above, we created a method named `myMethod()` that takes an integer parameter `x`. The method returns the value of `5 + x` using the `return` keyword. In the `main` method, we called `myMethod(3)`, which returns `8`, and we printed that value to the console.
 
-That's it for now! In the next post, see you tomorrow!
+That's it for now! see you in the next post!
 
 Happy hacking!
