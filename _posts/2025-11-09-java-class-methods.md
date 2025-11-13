@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java Class Methods
-date: 2025-11-09 12:24:59 +0300
+date: 2025-11-11 12:24:59 +0300
 categories:
   - Java
 ---

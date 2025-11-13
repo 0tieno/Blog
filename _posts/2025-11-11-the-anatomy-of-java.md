@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Anatomy of a Java Program
-date: 2025-11-10 12:24:59 +0300
+date: 2025-11-07 12:24:59 +0300
 categories:
   - Java
 ---
