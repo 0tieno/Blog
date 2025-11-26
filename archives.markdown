@@ -23,7 +23,9 @@ permalink: /archives/
 
 ### {{ month.name }} {{ year.name }} ({{monthCount}} Posts)
 
-{% assign postsByWeek = month.items | group_by_exp:"post", "post.date | minus: oldest_date | divided_by: 604800 | plus: 1"  %}
+{% comment %} Calculate weeks based on days since Nov 5, 2025 (baseline) {% endcomment %}
+{% assign baseline_date = '2025-11-05' | date: '%s' %}
+{% assign postsByWeek = month.items | group_by_exp:"post", "post.date | date: '%s' | minus: baseline_date | divided_by: 86400 | divided_by: 7 | floor | plus: 1" %}
 
 {% for week in postsByWeek %}
 
