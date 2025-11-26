@@ -395,6 +395,6 @@ public class Main {
 6. **Type conversion** can be automatic (widening) or manual (narrowing)
 7. **Parse methods** convert strings to numbers: `Integer.parseInt()`, `Double.parseDouble()`
 
-In the next post, we'll explore Java control structures and learn how to make decisions in your programs!
+In the next post, we'll explore Java control structures and learn how to make decisions and loops in your programs!
 
 Happy coding!

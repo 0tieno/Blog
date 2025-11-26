@@ -462,4 +462,6 @@ class Main {
 
 These concepts work together to create flexible, maintainable, and reusable code!
 
+**Note:** This comprehensive topic has been split into more focused posts: [Java Inheritance Basics](/Blog/java-inheritance-basics), Java Abstract Classes and Interfaces (coming soon), and Java Polymorphism in Action (coming soon) for better learning.
+
 Happy coding!

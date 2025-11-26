@@ -142,6 +142,10 @@ public class Main {
 }
 ```
 
-That's it for Java variables and data types! In the next post, we'll explore control structures like if statements, loops, and more.
+That's it for Java variables and data types!
+
+**Note:** This topic has been expanded into more focused posts: [Java Variables and Primitive Types](/Blog/java-variables-and-primitive-types) and [Java Strings and Type Conversion](/Blog/java-strings-and-type-conversion).
+
+In the next post, we'll explore control structures like if statements, loops, and more.
 
 Happy coding!

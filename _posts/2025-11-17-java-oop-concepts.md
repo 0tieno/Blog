@@ -291,6 +291,6 @@ public class Main {
 4. **Static Members**: Belong to the class rather than instances
 5. **Packages**: Organize related classes and avoid naming conflicts
 
-In the next post, we'll explore inheritance, polymorphism, and advanced OOP concepts!
+In the next post, we'll explore inheritance and how to build relationships between classes!
 
 Happy coding!
