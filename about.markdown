@@ -14,7 +14,9 @@ permalink: /about/
   </div>
 </div> -->
 
-I innovate, and get things done! that's the story of my life.
+I innovate, and get things done! that's the story of my life. 
+
+And yeah, that's all about me :)
 
 In this blog I will be writing primarily about my learning on:
 
