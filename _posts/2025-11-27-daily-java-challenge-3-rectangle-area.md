@@ -1,13 +1,11 @@
 ---
 type: post
 title: "Daily Java Challenge #3 - Calculate Rectangle Area"
-date: 2025-11-30 09:00:00 +0300
+date: 2025-11-27 09:00:00 +0300
 categories:
   - Java
   - Daily-Challenge
 ---
-
-## Challenge #3: Calculate Rectangle Area
 
 **Problem**: Write a Java program that calculates the area of a rectangle given its length and width. Include both hardcoded values and user input versions.
 
@@ -194,12 +192,7 @@ Once you master rectangle area, try these:
 - Printf formatting (`%.2f`) creates cleaner output
 - Breaking code into methods improves organization
 
-## Next Steps
 
-Tomorrow's challenge will build on these concepts. Stay tuned for more problem-solving adventures!
-
----
-
-**📁 This code can be found at:** [Daily Java Challenges Repository](https://github.com/0tieno/daily-java-challenges)
+**📁 This code can be found at my:** [BlogCode Repository](https://github.com/0tieno/BlogCode/tree/main/2025-11-26-rectangle-area)
 
 Happy coding! 🎯

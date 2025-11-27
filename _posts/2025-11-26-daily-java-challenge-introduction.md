@@ -9,7 +9,7 @@ categories:
 
 Welcome to my **Daily Java Challenge** series!
 
-Starting today, I'm embarking on a journey to solve Java programming problems daily. This series will document my progress as I tackle fundamental programming challenges, build problem-solving skills, and strengthen my Java foundation.
+Starting today, alongside the daily posts, I'm embarking on a journey to solve Java programming problems daily. This series will document my progress as I tackle fundamental programming challenges, build problem-solving skills, and strengthen my Java foundation.
 
 ## Why Daily Challenges?
 
@@ -38,12 +38,10 @@ I'll be covering various types of problems:
 - **Algorithms**: Sorting, searching, optimization
 - **Object-Oriented**: Classes, inheritance, polymorphism
 
-## Let's Get Started!
-
 Whether you're learning Java or want to practice alongside me, this journey will help reinforce core programming concepts.
 
 Let's dive in!
 
-**📁 All challenge solutions can be found at:** [BlogCode Repository](https://github.com/0tieno/BlogCode)
+**📁 All challenge solutions can be found at my:** [BlogCode Repository](https://github.com/0tieno/BlogCode)
 
 Happy coding! 🎯

@@ -143,6 +143,6 @@ try {
 - String concatenation automatically converts numbers to strings
 - User input makes programs more dynamic and useful
 
-**📁 This code can be found at:** [BlogCode Repository](https://github.com/0tieno/BlogCode/tree/main/2025-11-26-add-two-numbers)
+**📁 This code can be found at my:** [BlogCode Repository](https://github.com/0tieno/BlogCode/tree/main/2025-11-26-add-two-numbers)
 
 Happy coding! 🎯

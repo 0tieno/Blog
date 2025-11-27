@@ -100,6 +100,6 @@ a = a ^ b;
 
 **Note**: The temporary variable method works with all data types and is the most readable approach!
 
-**📁 This code can be found at:** [BlogCode Repository](https://github.com/0tieno/BlogCode/tree/main/2025-11-27-swap-two-variables)
+**📁 This code can be found at my:** [BlogCode Repository](https://github.com/0tieno/BlogCode/tree/main/2025-11-27-swap-two-variables)
 
 Happy coding! 🎯
