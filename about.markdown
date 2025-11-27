@@ -32,5 +32,5 @@ This blog is OpenSource, published using [Jekyll](https://jekyllrb.com/) and can
 
 Full credit to [https://github.com/conradakunga/Blog](https://github.com/conradakunga/Blog)
 
-short story long - [www.ronneyotieno.me](www.ronneyotieno.me) [old version]
+short story long - [https://www.ronneyotieno.me](https://www.ronneyotieno.me) [old version]
 
