@@ -4,16 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<!-- <div class="profile-card">
-  <div class="profile-image">
-    <img src="../images/2025/11/profile-ronney.jpg" alt="Ronney Profile" />
-  </div>
-  <div class="profile-info">
-    <h1>I'm ronney | room thinker</h1>
-    <p>I innovate, and get things done! that's the story of my life.</p>
-  </div>
-</div> -->
-
 I innovate, and get things done! that's the story of my life. 
 
 And yeah, that's all about me :)
