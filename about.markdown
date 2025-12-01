@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+I'm a Microsoft Most Valuable Professional (MVP) in Cloud Security & DevSecOps.
 
 I innovate, and get things done! that's the story of my life. 
 
