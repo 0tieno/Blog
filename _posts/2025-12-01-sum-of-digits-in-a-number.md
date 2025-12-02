@@ -81,6 +81,7 @@ public class Main {
     }
 }
 ```
+![final results](../images/2025/12/2025-12-01.png)
 
 This code can be found in my [github](https://github.com/0tieno/BlogCode/blob/main/2025-12-2-add-digits-in-a-number)
 
