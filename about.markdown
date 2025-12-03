@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-I'm a Microsoft Most Valuable Professional (MVP) in Cloud Security & DevSecOps.
+![Microsoft MVP award](./images/2025/12/MVP_Badge_Horizontal_Preferred_Blue3005_RGBcopy.jpg)
 
 I innovate, and get things done! that's the story of my life. 
 
