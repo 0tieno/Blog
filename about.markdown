@@ -3,6 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+I am a [Microsoft MVP](https://mvp.microsoft.com/en-US/mvp/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444) (cloud security & DevSecOps)
+
 ![Microsoft MVP award](./images/2025/12/MVP_Badge_Horizontal_Preferred_Blue3005_RGBcopy.jpg)
 
 I innovate, and get things done! that's the story of my life. 
