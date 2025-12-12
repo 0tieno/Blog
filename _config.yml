@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 author: Developer | Jnr Pentester
-title: "I'm ronney - Building Backend Software"
+title: "I'm ronney - Backend Software & Security"
 email: "ronvi035@gmail.com"
 description: "I have NO other higher calling in this life below than to transform people's lives. If I do but one thing today, may I be human sunshine for someone."
 baseurl: "/Blog" # the subpath of your site, e.g. /blog  
