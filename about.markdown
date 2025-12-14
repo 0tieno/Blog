@@ -14,8 +14,8 @@ And yeah, that's all about me :)
 In this blog I will be writing primarily about my learning on:
 
 1. **Backend Engineering - Java**
-2. **System Design, DSA**
-3. **...and little philosophy**
+2. **System Design, DSA, AND Security**
+3. **...and sometimes little philosophy**
 
 All posts assume no, or little, prior knowledge of the subject matter and therefore should be useful regardless of your level of experience.
 
