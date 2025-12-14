@@ -10,8 +10,8 @@ Welcome to my new Jekyll blog! This is my first post as I customize this blog to
 I'll be writing about:
 
 - Backend Software Engineering using Java
-- System Design
-- and sometimes DSA
+- System Design, DSA, AND Security
+- ...and sometimes little philosophy
 
 Stay tuned for more content!
 
