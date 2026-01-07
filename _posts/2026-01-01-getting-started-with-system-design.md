@@ -47,4 +47,4 @@ System design is important for anyone who wants to build a `robust`, `scalable`,
 
 Pause a moment and look at your body architecture! Appreciate the `Chief Architect`!
 
-Happy hacking!
+Happy designing!
