@@ -27,4 +27,4 @@ By considering these important points when designing a software system, an engin
 
 Pause a moment and look at your body architecture! Appreciate the `Chief Architect`!
 
-Happy designing!
+Happy architecting!
