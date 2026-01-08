@@ -3,7 +3,7 @@ type: post
 title: "Java Algorithms"
 date: 2026-01-04 09:00:00 +0300
 categories:
-  - DSA
+  - Data Structures - (Java)
 ---
 
 Important part of programming is solving problems efficiently. In order to do that, you need to know algorithms. In our previous post about [data structures and algorithms](/Blog/java-data-structures/), we discussed data structures. Now, let's dive into algorithms!
