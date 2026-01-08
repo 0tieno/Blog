@@ -3,7 +3,7 @@ type: post
 title: Java Data Structures - Arrays, ArrayLists, HashSets, and HashMaps
 date: 2025-11-26 09:00:00 +0300
 categories:
-  - Data Structures - (Java)
+  - DSA - Java
 ---
 
 Data structures are ways to store and organize data so you can use it efficiently.
