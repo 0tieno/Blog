@@ -152,3 +152,5 @@ It respects complexity, controls change, and delays distribution until it is tru
 Next, we’ll conclude this series by answering the most important question of all:
 
 When are microservices actually worth it?
+
+Happy Architecting!
