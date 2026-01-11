@@ -1,7 +1,7 @@
 ---
 type: post
 title: When Are Microservices Actually Worth It?
-date: 2026-01-09 09:00:00 +0300
+date: 2026-01-10 09:00:00 +0300
 categories:
   - system design
   - Monolith vs Microservices series
