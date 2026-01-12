@@ -4,6 +4,7 @@ title: I Was Tired of Fixing This Git Error — So I Documented It
 date: 2026-01-11 09:00:00 +0300
 categories:
   - Git
+  - Automate Boring Stuff series
 ---
 
 If you use Git, you’ve probably encountered this frustrating error message at some point:
