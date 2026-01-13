@@ -3,7 +3,7 @@ type: post
 title: When Should You Choose NoSQL Database Over SQL Database in System Design?
 date: 2026-01-13 09:00:00 +0300
 categories:
-  - System Design
+  - system design
   - Databases
 ---
 
