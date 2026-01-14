@@ -11,11 +11,10 @@ I innovate, and get things done! that's the story of my life.
 
 And yeah, that's all about me :)
 
-In this blog I will be writing primarily about my learning on:
+In this blog I will be writing primarily about my learning on anything:
 
-1. **Backend Engineering - Java**
-2. **System Design, DSA, AND Security**
-3. **...and sometimes little philosophy**
+1. Backend Software Architecting & Engineering
+2. Security in Software and Cloud
 
 All posts assume no, or little, prior knowledge of the subject matter and therefore should be useful regardless of your level of experience.
 
