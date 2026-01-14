@@ -7,12 +7,11 @@ categories: general
 
 Welcome to my new Jekyll blog! This is my first post as I customize this blog to make it my own. I am committing to writing something daily for the all period I am in my backend software engineering position here at [Safaricom PLC](https://www.safaricom.co.ke)
 
-I'll be writing about:
+I will be writing primarily about my learning on anything:
 
-- Backend Software Engineering using Java
-- System Design, DSA, AND Security
-- ...and sometimes little philosophy
+1. Backend Software Architecting & Engineering
+2. Security in Software and Cloud
 
-Stay tuned for more content!
+Goal: I want to be consistent!
 
-Happy Coding!
+Happy Learning!
