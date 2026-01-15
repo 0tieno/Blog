@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Microsoft MVP award](./images/2025/12/MVP_Badge_Horizontal_Preferred_Blue3005_RGBcopy.jpg)
 
-Hey! I’m Ronney, a [Microsoft MVP](https://mvp.microsoft.com/en-US/mvp/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444) MVP (Cloud Security & DevSecOps) and a backend architect & engineer. I build secure cloud-native products some of which supports thousands of users daily. I love innovation and getting stuff done.
+Hey! I’m Ronney, a [Microsoft MVP](https://mvp.microsoft.com/en-US/mvp/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444) (Cloud Security & DevSecOps) and a backend architect & engineer. I build secure cloud-native products some of which supports thousands of users daily. I love innovation and getting stuff done.
 
 And yeah, that's all about the story of my life :)
 
