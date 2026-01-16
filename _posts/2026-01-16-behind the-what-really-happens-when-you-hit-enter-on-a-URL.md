@@ -7,11 +7,11 @@ categories:
     - Epiphanies
 ---
 
-Ever wondered what happens behind the scenes when you type a URL into your browser and hit Enter? Let’s take a deep dive into the journey of a request to a sample site https://www.kyusda.org/.
+Ever wondered what happens behind the scenes when you type a URL into your browser and hit Enter? Let’s take a shallow dive into the journey of a request to a sample site: [https://www.kyusda.org/](https://www.kyusda.org/)
 
 ## Step 1: URL Parsing and DNS Lookup
 
-When you hit Enter on https://www.kyusda.org/:
+When you hit Enter on [https://www.kyusda.org/](https://www.kyusda.org/)
 
 ![url](../images/2025/2026/01/url.png)
 
