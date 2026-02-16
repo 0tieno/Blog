@@ -6,14 +6,11 @@ permalink: /about/
 
 ![Microsoft MVP award](./images/2025/12/MVP_Badge_Horizontal_Preferred_Blue3005_RGBcopy.jpg)
 
-Hey! I'm a [Microsoft MVP](https://mvp.microsoft.com/en-US/mvp/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444) (Cloud Security & DevSecOps) and a backend architect & engineer. Some of my work support thousands daily. I love innovation and getting stuff done.
-
-And yeah, that's all about the story of my life :)
+Hello! I'm Ronney, a [Microsoft MVP](https://mvp.microsoft.com/en-US/mvp/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444) (Cloud Security & DevSecOps).:)
 
 In this blog I will be writing primarily about my learning on anything:
 
-1. Backend Software Architecting & Engineering
-2. Security in Software and Cloud
+- Backend Software, cloud, and DevOps, and their matter Security
 
 All posts assume no, or little, prior knowledge of the subject matter and therefore should be useful regardless of your level of experience.
 
