@@ -18,7 +18,7 @@ Logs: 16th feb, 2026 - ...
 - Day 1 - 3hrs 29mins
 - Day 2 - missed
 - Day 3 - 2hrs 50mins
-- Day 4 -
+- Day 4 - 1hr 30min +
 - Day 5 -
 - Day 6 -
 - Day 7 -
