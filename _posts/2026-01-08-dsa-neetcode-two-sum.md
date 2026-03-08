@@ -50,4 +50,28 @@ This solution works by iterating through the array and using a hash map to keep 
 
 This approach has a time complexity of O(n) since we only traverse the array once, and the space complexity is also O(n) due to the additional storage used by the hash map.
 
+A brute-force solution would look like this:
+
+```
+    class Solution {
+        public int[] twoSum(int[] nums, int target) {
+            // Iterate through each pair of numbers
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = i + 1; j < nums.length; j++) {
+                    // Check if the pair sums up to the target
+                    if (nums[i] + nums[j] == target) {
+                        return new int[]{i, j};
+                    }
+                }
+            }
+            // This line will never be reached (problem guarantees one solution)
+            return new int[]{};
+        }
+    }
+```
+![alt text](../images/2025/2026/03/image.png)
+
+This brute-force solution checks every possible pair of numbers to see if they sum up to the target. It has a time complexity of O(n^2) because of the nested loops, which is less efficient than the hash map approach.
+
+
 Happy hacking!
