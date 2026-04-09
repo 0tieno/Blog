@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Microsoft MVP award](./images/2025/12/MVP_Badge_Horizontal_Preferred_Blue3005_RGBcopy.jpg)
 
-Hello! I'm Ronney, a [Microsoft MVP](https://mvp.microsoft.com/en-US/mvp/profile/b9a24a24-7cfe-489e-8a76-4a0ad03a3444) (Cloud Security & DevSecOps).:)
+`I do not know what I may appear to the world, but to myself I seem to have been only like a boy playing on the sea shore, and diverting myself in now and then finding a smooother pebble or a prettier shell than ordinary, whilist the greater ocean of truth lay all undiscovered before me.`
 
 In this blog I will be writing primarily about my learning on anything:
 
