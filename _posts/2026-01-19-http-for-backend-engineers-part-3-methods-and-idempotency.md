@@ -11,38 +11,38 @@ HTTP methods define intent.
 
 They tell the server what action the client wants, not just where the resource is.
 
-## Core methods
+### Core methods
 
-### GET
+#### GET
 
 - Fetch data
 - Should not mutate server state
 
-### POST
+#### POST
 
 - Create new resource / trigger non-idempotent action
 - Usually includes request body
 
-### PATCH
+#### PATCH
 
 - Partial update of existing resource
 - Preferred for selective updates
 
-### PUT
+#### PUT
 
 - Full replacement of resource representation
 - Use when full overwrite semantics are intended
 
-### DELETE
+#### DELETE
 
 - Remove resource
 
-### OPTIONS
+#### OPTIONS
 
 - Ask server capabilities for a resource
 - Important for CORS preflight flow
 
-## PATCH vs PUT
+### PATCH vs PUT
 
 A practical rule:
 
@@ -51,11 +51,11 @@ A practical rule:
 
 Many APIs use PUT loosely, but clear semantics help maintainability and client behavior.
 
-## Idempotency
+### Idempotency
 
 A method is idempotent if repeating the same request produces the same server state outcome.
 
-### Typically idempotent
+#### Typically idempotent
 
 - GET
 - PUT
@@ -67,7 +67,7 @@ Why:
 - PUT repeatedly replacing with same payload leads to same final state
 - DELETE after first success keeps resource absent
 
-### Typically non-idempotent
+#### Typically non-idempotent
 
 - POST
 
@@ -75,16 +75,18 @@ Why:
 
 Repeating the same POST often creates multiple resources or triggers repeated side effects.
 
-## Why idempotency matters
+### Why idempotency matters
 
 - Safe retries on network failures
 - Clearer distributed-system behavior
 - Better API contracts for clients and gateways
 
-## Final takeaway
+### Final takeaway
 
 Methods are not just syntax. They are semantic contracts.
 
 When APIs respect method intent and idempotency, systems are easier to debug, scale, and reason about.
 
 In Part 4, we begin CORS with simple request flow.
+
+Happy hacking!
