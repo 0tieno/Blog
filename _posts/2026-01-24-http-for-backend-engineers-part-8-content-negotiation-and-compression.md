@@ -9,13 +9,13 @@ categories:
 
 Content negotiation lets client and server agree on the best representation for data exchange.
 
-## Common negotiation dimensions
+### Common negotiation dimensions
 
 - Media type (JSON, XML, HTML)
 - Language (English, Spanish, etc.)
 - Encoding/compression (gzip, br, deflate)
 
-## Request-side preference headers
+### Request-side preference headers
 
 - Accept
 - Accept-Language
@@ -32,11 +32,11 @@ Accept-Encoding: gzip, br
 
 Server may respond in Spanish JSON and compressed form, depending on capabilities.
 
-## Why this matters
+### Why this matters
 
 Same endpoint can adapt representation to client capabilities without changing core business logic.
 
-## Compression focus
+### Compression focus
 
 For large payloads, compression dramatically reduces transfer size.
 
@@ -56,14 +56,16 @@ This reduces:
 - bandwidth usage
 - user-perceived latency
 
-## Design considerations
+### Design considerations
 
 - Enable compression for large text-based responses (JSON, HTML, CSS, JS)
 - Avoid compressing already compressed binaries unless necessary
 - Validate compression behavior in production with realistic payload sizes
 
-## Final takeaway
+### Final takeaway
 
 Negotiation and compression are protocol-native optimizations. They are simple in concept but high impact in performance and user experience.
 
 In Part 9, we cover connection persistence and keep-alive behavior.
+
+Happy hacking!
