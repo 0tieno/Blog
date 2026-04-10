@@ -9,9 +9,9 @@ categories:
 
 In this part, we unpack HTTP request/response messages and understand why headers are so important.
 
-## HTTP message anatomy
+### HTTP message anatomy
 
-### Request message
+#### Request message
 
 A request usually contains:
 
@@ -33,7 +33,7 @@ Authorization: Bearer <token>
 {"name":"Alice"}
 ```
 
-### Response message
+#### Response message
 
 A response usually contains:
 
@@ -53,7 +53,7 @@ Cache-Control: no-cache
 {"id":1,"name":"Alice"}
 ```
 
-## Why headers exist
+### Why headers exist
 
 Headers are metadata as key-value pairs.
 
@@ -64,9 +64,9 @@ Same idea in HTTP:
 - metadata belongs in headers
 - payload belongs in body
 
-## Header categories you should know
+### Header categories you should know
 
-### 1) Request headers
+#### 1) Request headers
 
 Sent by client to describe request context.
 
@@ -76,7 +76,7 @@ Examples:
 - Authorization
 - Accept
 
-### 2) General headers
+#### 2) General headers
 
 Used in requests/responses for message-level metadata.
 
@@ -86,7 +86,7 @@ Examples:
 - Cache-Control
 - Connection
 
-### 3) Representation headers
+#### 3) Representation headers
 
 Describe body representation.
 
@@ -97,7 +97,7 @@ Examples:
 - Content-Encoding
 - ETag
 
-### 4) Security headers
+#### 4) Security headers
 
 Control browser security behavior.
 
@@ -109,9 +109,9 @@ Examples:
 - X-Content-Type-Options
 - Set-Cookie with HttpOnly/Secure
 
-## Two powerful ideas behind headers
+### Two powerful ideas behind headers
 
-### Extensibility
+#### Extensibility
 
 HTTP can evolve by adding headers without changing core protocol semantics.
 
@@ -121,7 +121,7 @@ Examples:
 - custom app headers
 - richer content negotiation
 
-### Remote control behavior
+#### Remote control behavior
 
 Headers let client/server influence each other safely.
 
@@ -131,8 +131,11 @@ Examples:
 - `Authorization` drives access decisions
 - `Cache-Control` guides caching behavior
 
-## Final takeaway
+### Final takeaway
 
 Headers are not optional decoration. They are protocol-level control channels that make HTTP practical, extensible, and production-ready.
 
 In Part 3, we cover HTTP methods, semantics, and idempotency.
+
+Happy hacking!
+
