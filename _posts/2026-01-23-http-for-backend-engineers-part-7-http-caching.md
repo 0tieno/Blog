@@ -16,13 +16,13 @@ Benefits:
 - reduced bandwidth
 - less server load
 
-## Key headers in conditional caching
+### Key headers in conditional caching
 
 - Cache-Control: freshness policy
 - ETag: version identifier for representation
 - Last-Modified: timestamp hint
 
-## Initial response pattern
+### Initial response pattern
 
 ```http
 HTTP/1.1 200 OK
@@ -34,7 +34,7 @@ Content-Type: application/json
 
 Client stores this response and metadata.
 
-## Next request: conditional GET
+### Next request: conditional GET
 
 Client can ask server if its cached version is still valid:
 
@@ -44,9 +44,9 @@ If-None-Match: "abc123"
 If-Modified-Since: Wed, 19 Mar 2026 10:00:00 GMT
 ```
 
-## Server outcomes
+### Server outcomes
 
-### Resource unchanged
+#### Resource unchanged
 
 ```http
 HTTP/1.1 304 Not Modified
@@ -54,7 +54,7 @@ HTTP/1.1 304 Not Modified
 
 No body needed. Client reuses cached payload.
 
-### Resource changed
+#### Resource changed
 
 ```http
 HTTP/1.1 200 OK
@@ -64,20 +64,22 @@ Last-Modified: Wed, 19 Mar 2026 10:05:00 GMT
 
 Client receives fresh body and updates cache metadata.
 
-## ETag and Last-Modified together
+### ETag and Last-Modified together
 
 - ETag can be precise representation versioning
 - Last-Modified is useful but time-based and coarser
 - Together they support robust conditional requests
 
-## Real-world caveat
+### Real-world caveat
 
 Manual cache validation logic can become complex in large systems.
 
 Modern client libraries often provide richer app-level caching controls, but HTTP caching remains a foundational mechanism that every backend engineer should understand.
 
-## Final takeaway
+### Final takeaway
 
 `304 Not Modified` is one of the highest-impact performance responses in HTTP when used correctly.
 
 In Part 8, we move to content negotiation and response compression.
+
+Happy hacking!
