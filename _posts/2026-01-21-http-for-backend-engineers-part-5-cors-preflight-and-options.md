@@ -12,7 +12,7 @@ When a cross-origin request is not simple, the browser sends a preflight request
 
 That preflight uses the OPTIONS method.
 
-## When preflight happens
+### When preflight happens
 
 Cross-origin request + any of these:
 
@@ -20,7 +20,7 @@ Cross-origin request + any of these:
 - non-simple headers are used (for example Authorization)
 - content-type is non-simple (for example application/json in many practical cases)
 
-## Preflight request
+### Preflight request
 
 The browser asks server capability before sending actual request.
 
@@ -33,7 +33,7 @@ Access-Control-Request-Headers: Authorization, Content-Type
 
 No request body is sent. It is capability negotiation.
 
-## Expected server preflight response
+### Expected server preflight response
 
 ```http
 HTTP/1.1 204 No Content
@@ -50,25 +50,27 @@ Meaning:
 - headers are allowed
 - decision can be cached for max-age duration
 
-## What browser does next
+### What browser does next
 
 - If preflight passes: browser sends original request
 - If preflight fails: browser blocks original request
 
-## Why Access-Control-Max-Age helps
+### Why Access-Control-Max-Age helps
 
 Without it, browser sends preflight too often.
 
 With max-age, browser can cache the CORS permission decision and reduce overhead.
 
-## Typical backend mistake patterns
+### Typical backend mistake patterns
 
 - forgetting `Access-Control-Allow-Headers` for Authorization
 - allowing origin but not method
 - handling API route but not OPTIONS route
 
-## Final takeaway
+### Final takeaway
 
 OPTIONS preflight is a negotiation step. If your API supports cross-origin mutation or custom headers, design and test this flow intentionally.
 
 In Part 6, we move to HTTP status codes and practical error signaling.
+
+Happy hacking!
