@@ -53,4 +53,34 @@ linked list
 
 Ask:
 
-How many operations happen?
+How many operations happen? 
+How does that grow as input size grows?
+
+Common complexities:
+
+```
+O(1) - constant time
+O(log n) - logarithmic time
+O(n) - linear time
+O(n log n) - linearithmic time
+O(n^2) - quadratic time
+O(2^n) - exponential time
+O(n!) - factorial time
+```
+
+### Space Complexity
+Ask:
+How much extra space do I need?
+
+Common complexities:
+
+```
+O(1) - constant space
+O(n) - linear space
+O(n^2) - quadratic space
+```
+
+Asking important questions while solving DSA problems is key to developing a deep understanding of algorithms and data structures. It helps you identify patterns, optimize solutions, and write efficient code. This is the secret.
+
+
+Happy hacking!
