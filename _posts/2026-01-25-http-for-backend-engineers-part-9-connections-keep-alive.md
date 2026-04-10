@@ -11,7 +11,7 @@ In early HTTP/1.0 behavior, each request typically opened and closed a connectio
 
 HTTP/1.1 improved this with persistent connections.
 
-## Persistent connection idea
+### Persistent connection idea
 
 Reuse one TCP connection for multiple request/response exchanges.
 
@@ -21,7 +21,7 @@ Benefits:
 - less connection setup/teardown overhead
 - better throughput
 
-## Keep-Alive behavior
+### Keep-Alive behavior
 
 In HTTP/1.1, persistence is the default behavior.
 
@@ -34,7 +34,7 @@ Possible control intent:
 
 If `Connection: close` is used, the connection is terminated after response.
 
-## Why backend engineers should care
+### Why backend engineers should care
 
 You may not manually control this often, but it impacts:
 
@@ -43,14 +43,16 @@ You may not manually control this often, but it impacts:
 - streaming APIs
 - latency and resource usage under load
 
-## Practical advice
+### Practical advice
 
 - Understand defaults of your server, framework, and reverse proxy
 - Tune only after measuring real traffic behavior
 - Treat keep-alive settings as performance and capacity levers
 
-## Final takeaway
+### Final takeaway
 
 Connection management is mostly invisible when things work and very visible when they do not. Knowing these fundamentals helps debug odd latency and resource issues.
 
 In Part 10, we close with large request/response handling and TLS/HTTPS overview.
+
+Happy hacking!
