@@ -110,4 +110,4 @@ If everything is set up correctly, you should see a BUILD SUCCESS message.
 
 Installing Maven is one of the first steps when working with Java backend applications, microservices, or Spring-based systems. Once set up, it greatly simplifies dependency management and build automation, letting you focus on writing code instead of managing libraries manually.
 
-Happy coding!
+Happy hacking!
