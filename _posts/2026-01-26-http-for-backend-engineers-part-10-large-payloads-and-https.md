@@ -10,7 +10,7 @@ categories:
 
 This final part covers two practical data-transfer patterns and ends with SSL/TLS/HTTPS basics.
 
-## 1) Sending large requests: multipart/form-data
+### 1) Sending large requests: multipart/form-data
 
 Large file uploads are typically sent as multipart data.
 
@@ -28,7 +28,7 @@ Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryXYZ
 
 Boundary markers delimit each part in request body so server can parse fields/files correctly.
 
-## 2) Sending large responses: streaming/chunking
+### 2) Sending large responses: streaming/chunking
 
 For very large payloads, servers can stream data in chunks instead of buffering full content first.
 
@@ -43,13 +43,13 @@ Benefits:
 - reduced memory pressure
 - better behavior for long-running data transfer
 
-## SSL, TLS, and HTTPS (backend-level understanding)
+### SSL, TLS, and HTTPS (backend-level understanding)
 
-### SSL
+#### SSL
 
 Older protocol family used for secure transport. Now obsolete due to vulnerabilities.
 
-### TLS
+#### TLS
 
 Modern secure transport protocol replacing SSL.
 
@@ -59,19 +59,19 @@ Provides:
 - integrity protection
 - certificate-based server authentication
 
-### HTTPS
+#### HTTPS
 
 HTTPS is HTTP running over TLS.
 
 Same HTTP semantics, but with secure transport.
 
-## Why HTTPS is non-negotiable
+### Why HTTPS is non-negotiable
 
 Without TLS, traffic can be inspected or tampered with in transit.
 
 With HTTPS, credentials and sensitive data are protected end-to-end over the transport path.
 
-## Series wrap-up
+### Series wrap-up
 
 You now have the core HTTP model needed for backend engineering:
 
@@ -86,4 +86,4 @@ You now have the core HTTP model needed for backend engineering:
 
 This foundation is enough to reason about and debug most everyday backend API flows.
 
-Happy building.
+Happy hacking!
