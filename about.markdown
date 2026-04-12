@@ -18,6 +18,8 @@ I am currently building backend software at [Safaricom PLC](https://www.safarico
 
 LinkedIn - [Linkedin.com/in/ronney-otieno](https://www.linkedin.com/in/ronney-otieno)
 
+[Book a call with me](https://cal.com/i-am-ronney?redirect=false)
+
 This blog is OpenSource, published using [Jekyll](https://jekyllrb.com/) and can be found in its entirety here [https://github.com/0tieno/Blog](https://github.com/0tieno/Blog)
 
 Full credit to [https://github.com/conradakunga/Blog](https://github.com/conradakunga/Blog)
