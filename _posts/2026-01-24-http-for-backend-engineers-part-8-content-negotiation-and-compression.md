@@ -62,10 +62,10 @@ This reduces:
 - Avoid compressing already compressed binaries unless necessary
 - Validate compression behavior in production with realistic payload sizes
 
-### Final takeaway
+### TLDR
 
 Negotiation and compression are protocol-native optimizations. They are simple in concept but high impact in performance and user experience.
 
-In Part 9, we cover connection persistence and keep-alive behavior.
+In [Part 9]({{ '/http-for-backend-engineers-part-9-connections-keep-alive/' | relative_url }}), we cover connection persistence and keep-alive behavior.
 
 Happy hacking!
