@@ -131,11 +131,11 @@ Examples:
 - `Authorization` drives access decisions
 - `Cache-Control` guides caching behavior
 
-### Final takeaway
+### TLDR
 
 Headers are not optional decoration. They are protocol-level control channels that make HTTP practical, extensible, and production-ready.
 
-In Part 3, we cover HTTP methods, semantics, and idempotency.
+In [Part 3]({{ '/http-for-backend-engineers-part-3-methods-and-idempotency/' | relative_url }}), we cover HTTP methods, semantics, and idempotency.
 
 Happy hacking!
 
