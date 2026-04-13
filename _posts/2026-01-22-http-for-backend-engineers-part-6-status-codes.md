@@ -64,10 +64,10 @@ Keep status code semantics consistent across endpoints.
 
 Clients become simpler when response meaning is predictable.
 
-### Final takeaway
+### TLDR
 
 The best APIs are explicit. Correct status codes reduce ambiguity, speed debugging, and improve client resilience.
 
-In Part 7, we tackle HTTP caching with ETag, Last-Modified, and 304 responses.
+In [Part 7]({{ '/http-for-backend-engineers-part-7-http-caching/' | relative_url }}), we tackle HTTP caching with ETag, Last-Modified, and 304 responses.
 
 Happy hacking!
