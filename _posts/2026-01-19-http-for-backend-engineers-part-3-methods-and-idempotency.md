@@ -81,12 +81,12 @@ Repeating the same POST often creates multiple resources or triggers repeated si
 - Clearer distributed-system behavior
 - Better API contracts for clients and gateways
 
-### Final takeaway
+### TLDR
 
 Methods are not just syntax. They are semantic contracts.
 
 When APIs respect method intent and idempotency, systems are easier to debug, scale, and reason about.
 
-In Part 4, we begin CORS with simple request flow.
+In [Part 4]({{ '/http-for-backend-engineers-part-4-cors-simple-flow/' | relative_url }}), we begin CORS with simple request flow.
 
 Happy hacking!
