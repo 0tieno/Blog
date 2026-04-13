@@ -269,7 +269,7 @@ public class Main {
 }
 ```
 
-## Key Takeaways
+## TLDR
 
 1. **Primitive types** store simple values directly in memory
 2. **Choose the right size** for your data to optimize memory usage
