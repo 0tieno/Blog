@@ -67,10 +67,10 @@ With max-age, browser can cache the CORS permission decision and reduce overhead
 - allowing origin but not method
 - handling API route but not OPTIONS route
 
-### Final takeaway
+### TLDR
 
 OPTIONS preflight is a negotiation step. If your API supports cross-origin mutation or custom headers, design and test this flow intentionally.
 
-In Part 6, we move to HTTP status codes and practical error signaling.
+In [Part 6]({{ '/http-for-backend-engineers-part-6-status-codes/' | relative_url }}), we move to HTTP status codes and practical error signaling.
 
 Happy hacking!
