@@ -191,7 +191,7 @@ public class Main {
 }
 ```
 
-## Key Takeaways
+## TLDR
 
 - Use the **ternary operator** for simple conditional assignments
 - Choose **for loops** when you know the number of iterations
