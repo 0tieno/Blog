@@ -78,10 +78,10 @@ Misconfiguration causes:
 - Allow only required methods and headers
 - Test in browser devtools (network + console)
 
-### Final takeaway
+### TLDR
 
 CORS is not an HTTP server feature alone and not a frontend feature alone. It is a browser policy that relies on server headers.
 
-In Part 5, we cover preflight flow and the OPTIONS method in depth.
+In [Part 5]({{ '/http-for-backend-engineers-part-5-cors-preflight-and-options/' | relative_url }}), we cover preflight flow and the OPTIONS method in depth.
 
 Happy hacking!
