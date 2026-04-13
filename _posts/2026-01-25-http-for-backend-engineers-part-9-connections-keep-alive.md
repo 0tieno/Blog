@@ -49,10 +49,10 @@ You may not manually control this often, but it impacts:
 - Tune only after measuring real traffic behavior
 - Treat keep-alive settings as performance and capacity levers
 
-### Final takeaway
+### TLDR
 
 Connection management is mostly invisible when things work and very visible when they do not. Knowing these fundamentals helps debug odd latency and resource issues.
 
-In Part 10, we close with large request/response handling and TLS/HTTPS overview.
+In [Part 10]({{ '/http-for-backend-engineers-part-10-large-payloads-and-https/' | relative_url }}), we close with large request/response handling and TLS/HTTPS overview.
 
 Happy hacking!
