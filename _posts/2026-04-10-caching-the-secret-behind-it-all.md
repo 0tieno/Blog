@@ -199,7 +199,7 @@ If you cache everything:
 
 The right question is not "Can this be cached?" The better question is "Should this be cached, for how long, and under what invalidation rules?"
 
-### Final Takeaway
+### TLDR 
 
 Caching is about making repeated work cheaper.
 
