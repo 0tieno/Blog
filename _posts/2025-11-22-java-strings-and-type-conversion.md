@@ -385,7 +385,7 @@ public class Main {
 }
 ```
 
-## Key Takeaways
+## TLDR
 
 1. **Strings are objects**, not primitive types, so they have methods
 2. **Use `.equals()`** to compare strings, not `==`
