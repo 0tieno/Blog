@@ -407,7 +407,7 @@ public class Task {
 }
 ```
 
-## Key Takeaways
+## TLDR
 
 1. **Enums** provide type-safe constants and can include methods and constructors
 2. **LocalDate, LocalTime, LocalDateTime** are the modern way to handle dates and times
