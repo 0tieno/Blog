@@ -103,6 +103,8 @@ For practical backend work, keep this mental model:
 - HTTP defines the application-level rules
 - Stateless by default, state added intentionally when needed
 
+If you want a full design blueprint that builds on these HTTP fundamentals, read: [Complete REST API Design]({{ '/complete-rest-api-design/' | relative_url }})
+
 In Part 2, we will break down HTTP message structure and headers deeply.
 
 Happy hacking!
