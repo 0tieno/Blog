@@ -94,7 +94,7 @@ You may hear about OSI layers and handshake/encryption details. Useful to know, 
 - Better packet loss handling
 - Improved multiplexing behavior
 
-### Final takeaway
+### TLDR
 
 For practical backend work, keep this mental model:
 
@@ -105,6 +105,6 @@ For practical backend work, keep this mental model:
 
 If you want a full design blueprint that builds on these HTTP fundamentals, read: [Complete REST API Design]({{ '/complete-rest-api-design/' | relative_url }})
 
-In Part 2, we will break down HTTP message structure and headers deeply.
+In [Part 2]({{ '/http-for-backend-engineers-part-2-http-messages-and-headers/' | relative_url }}), we will break down HTTP message structure and headers deeply.
 
 Happy hacking!
