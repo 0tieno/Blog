@@ -10,7 +10,6 @@ When a client sends an HTTP request to a server, the code that handles it doesn'
 
 Here's what each layer does, and why it matters.
 
----
 
 ### The Controller (Handler) Layer
 
@@ -27,7 +26,6 @@ A typical Controller does the following, in order:
 
 The Controller doesn't process business logic itself — it only orchestrates the flow.
 
----
 
 ### The Service Layer
 
@@ -39,7 +37,6 @@ A single service method can do quite a lot. It might call multiple repositories,
 
 This isolation is what makes services independently testable and reusable.
 
----
 
 ### The Repository (Database) Layer
 
@@ -49,7 +46,6 @@ It takes data from the Service layer, builds the appropriate database query (ins
 
 A key principle here is the **Single Responsibility Principle**. A repository method should do one specific thing and return one type of data. Don't write a repository method with complex conditional logic that sometimes returns a single record and sometimes returns a list. Create two separate methods instead. Keeping them focused makes them predictable and easy to test.
 
----
 
 ### Middlewares
 
@@ -69,7 +65,6 @@ The order middlewares are arranged in matters, because the request flows through
 - **Logging** — Records details about each request (URL, method, parameters) for debugging purposes.
 - **Global Error Handling** — Usually placed at the very end of the chain. It catches any unstructured errors thrown by controllers or services and formats them into clean, standardized error messages for the client.
 
----
 
 ### Request Context
 
@@ -85,7 +80,6 @@ Because a request passes through many isolated function boundaries — multiple 
 
 3. **Cancellations and Timeouts** — The Context can carry abort signals and deadline values to prevent calls to external services from hanging indefinitely.
 
----
 
 Putting it all together: a request arrives, passes through middlewares (security, auth, logging), reaches the Controller (validation, binding, transformation), gets delegated to the Service (business logic), which calls the Repository (database query), and the result bubbles back up to the client with the right status code. Each layer has one job, and that clarity is what makes backend systems maintainable at scale.
 
