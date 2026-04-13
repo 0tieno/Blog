@@ -11,6 +11,39 @@ Designing a REST API is not just about exposing endpoints. It is about designing
 
 This guide walks through REST from first principles to practical endpoint design decisions you can apply immediately.
 
+If you are following the HTTP series on this blog, this post acts as the practical design bridge between protocol fundamentals and production API decisions.
+
+### Quick Visual Maps
+
+#### Request flow map
+
+```text
+Client
+  |
+  |  HTTP Request
+  v
+API Gateway / Router
+  |
+  v
+Middleware Chain (auth, rate limit, logging)
+  |
+  v
+Controller -> Service -> Repository -> Database
+  |
+  v
+HTTP Response (status code + body)
+```
+
+#### Method and idempotency map
+
+```text
+GET     -> Read resource                  -> Idempotent
+PUT     -> Replace full resource          -> Idempotent
+PATCH   -> Update partial fields          -> Idempotent (with stable payload semantics)
+DELETE  -> Remove resource                -> Idempotent
+POST    -> Create resource / custom action-> Non-idempotent (by default)
+```
+
 
 ### 1) What Is REST? (History and Definition)
 
@@ -130,6 +163,14 @@ That distinction keeps API behavior predictable for client code.
 - **Ship interactive docs**: Use Swagger/OpenAPI so consumers can read and test the API in one place.
 
 Consistency is what turns an API from "working" into "pleasant to use."
+
+
+### Related HTTP Series Reading
+
+- Foundations: [HTTP for Backend Engineers (Part 1)]({{ '/http-for-backend-engineers-part-1-foundations/' | relative_url }})
+- Methods and idempotency deep dive: [HTTP for Backend Engineers (Part 3)]({{ '/http-for-backend-engineers-part-3-methods-and-idempotency/' | relative_url }})
+- Status code semantics: [HTTP for Backend Engineers (Part 6)]({{ '/http-for-backend-engineers-part-6-status-codes/' | relative_url }})
+- Caching behavior: [HTTP for Backend Engineers (Part 7)]({{ '/http-for-backend-engineers-part-7-http-caching/' | relative_url }})
 
 
 A well-designed REST API is a long-term product, not a one-time implementation detail. The cleaner your resource modeling, method semantics, status codes, and defaults are today, the fewer integration bugs and breaking changes you will fight tomorrow.
