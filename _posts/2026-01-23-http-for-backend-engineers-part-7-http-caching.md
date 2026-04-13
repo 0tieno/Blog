@@ -76,10 +76,10 @@ Manual cache validation logic can become complex in large systems.
 
 Modern client libraries often provide richer app-level caching controls, but HTTP caching remains a foundational mechanism that every backend engineer should understand.
 
-### Final takeaway
+### TLDR
 
 `304 Not Modified` is one of the highest-impact performance responses in HTTP when used correctly.
 
-In Part 8, we move to content negotiation and response compression.
+In [Part 8]({{ '/http-for-backend-engineers-part-8-content-negotiation-and-compression/' | relative_url }}), we move to content negotiation and response compression.
 
 Happy hacking!
