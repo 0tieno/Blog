@@ -129,7 +129,7 @@ As a backend engineer, your concern is the **application layer**. Your job is to
 
 > Mental model: You produce JSON at the application layer. It gets converted into packets, then bits, transmitted over the network, reassembled on the other end, and handed back to the server as JSON. You only deal with JSON.
 
-### Key Takeaways
+### TLDR
 
 - **Serialization** = converting data into a common format (e.g., JSON) for transmission or storage
 - **Deserialization** = converting that common format back into a usable data structure
