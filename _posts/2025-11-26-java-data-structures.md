@@ -204,7 +204,7 @@ public class Main {
 - **HashSet:** When you need to ensure all elements are unique and don't care about order
 - **HashMap:** When you need to associate keys with values for quick lookups
 
-## Key Takeaways
+## TLDR
 - Data structures help organize and manage data efficiently
 - Choose the right data structure based on your needs for order, uniqueness, and access patterns
 - Use iterators to traverse data structures easily
