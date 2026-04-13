@@ -500,7 +500,7 @@ public class Main {
 - **Polymorphism**: Treat objects of different classes uniformly (covered in the next post!)
 - **Hierarchical Organization**: Model real-world relationships (Car is-a Vehicle)
 
-## Key Takeaways
+## TLDR
 
 1. **Use `extends`** to create inheritance relationships
 2. **Access modifiers** control what subclasses can access
