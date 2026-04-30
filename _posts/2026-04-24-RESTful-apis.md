@@ -331,6 +331,6 @@ Cleaner URLs but harder to test (you cannot just paste a URL into a browser).
 
 ## Related Post
 
-- [API Design: REST, GraphQL, gRPC, and Choosing the Right Protocol](/Blog/api-designs-rest-graphql-grpc-and-choosing-the-right-protocol/) — A broader look at REST alongside GraphQL and gRPC so you know when to use each.
+- [API Design: REST, GraphQL, gRPC, and Choosing the Right Protocol](/Blog/api-designs/) — A broader look at REST alongside GraphQL and gRPC so you know when to use each.
 
 Happy hacking!
