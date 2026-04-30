@@ -276,6 +276,6 @@ This shows you can model resources, choose appropriate HTTP methods, use meaning
 
 ## Related Post
 
-- [RESTful APIs: CRUD Operations, Status Codes, and Production Best Practices](/Blog/restful-apis-crud-operations-status-codes-and-production-best-practices/) — A deep dive into REST specifics, status codes, and patterns for building production-grade REST APIs.
+- [RESTful APIs: CRUD Operations, Status Codes, and Production Best Practices](/Blog/RESTful-apis/) — A deep dive into REST specifics, status codes, and patterns for building production-grade REST APIs.
 
 Happy hacking!
