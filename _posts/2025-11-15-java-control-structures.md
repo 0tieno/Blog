@@ -3,7 +3,7 @@ type: post
 title: Java Control Structures - Conditions and Loops
 date: 2025-11-15 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll dive into Java control structures - the building blocks that control the flow of your program. We'll cover conditional statements, loops, and decision-making constructs.

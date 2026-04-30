@@ -3,7 +3,7 @@ type: post
 title: Java Error Handling and Debugging
 date: 2025-11-20 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this final post of our Java series, we'll explore error handling, debugging techniques, and best practices for writing robust Java applications. Understanding how to handle errors properly is crucial for creating reliable software.

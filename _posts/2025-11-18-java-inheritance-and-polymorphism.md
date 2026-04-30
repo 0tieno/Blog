@@ -3,7 +3,7 @@ type: post
 title: Java Inheritance and Polymorphism
 date: 2025-11-18 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll explore two fundamental pillars of Object-Oriented Programming: inheritance and polymorphism. These concepts allow you to create more flexible, reusable, and maintainable code.

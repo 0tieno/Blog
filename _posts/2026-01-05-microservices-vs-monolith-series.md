@@ -4,7 +4,7 @@ title: Monolith vs Microservices — A Clear, Honest Blog Series
 date: 2026-01-05 09:00:00 +0300
 categories:
     - system design
-    - Monolith vs Microservices series
+  - monolith vs microservices series
 
 ---
 

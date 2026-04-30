@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge #6 - Odd or Even Number"
 date: 2025-12-02 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 **Problem**: Write a Java program that checks whether a given number is odd or even.

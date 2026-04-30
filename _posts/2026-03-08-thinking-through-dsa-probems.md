@@ -3,7 +3,7 @@ type: post
 title: The Universal DSA Thinking Framework
 date: 2026-03-08 09:00:00 +0300
 categories:
-      - DSA - Java
+  - dsa - java
 ---
 
 Whenever you see a problem:

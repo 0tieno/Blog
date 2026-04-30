@@ -3,7 +3,7 @@ type: post
 title: NeetCode Two Sum Problem - Java Solution
 date: 2026-01-08 09:00:00 +0300
 categories:
-  - DSA - Java
+  - dsa - java
 ---
 
 Honestly somehow, this is my first ever intentional attempt at a DSA problem in my entire life. And I cant explain anything! I'm in awe!

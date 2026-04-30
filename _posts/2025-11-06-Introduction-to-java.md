@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Java
 date: 2025-11-06 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 
 Java is a **high-level, object-oriented programming language** that’s designed to be portable — *“Write Once, Run Anywhere (WORA).”* In this blog post, we’ll cover the basics of Java programming, including setting up your environment, writing your first program, and understanding variables and data types.

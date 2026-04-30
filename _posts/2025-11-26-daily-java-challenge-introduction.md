@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge - Starting My Problem-Solving Journey"
 date: 2025-11-26 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 Welcome to my Daily Java Challenge series!

@@ -3,7 +3,7 @@ layout: post
 title: Java Class Attributes
 date: 2025-11-10 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 
 In the previous post, we used the term "variable" for x in the example (as shown below). It is actually an attribute of the class. Or you could say that class attributes are variables within a class:

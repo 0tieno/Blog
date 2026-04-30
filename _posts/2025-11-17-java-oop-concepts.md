@@ -3,7 +3,7 @@ type: post
 title: Java Object-Oriented Programming Concepts
 date: 2025-11-17 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll explore the fundamental concepts of Object-Oriented Programming (OOP) in Java. Understanding these concepts is crucial for writing maintainable and scalable Java applications.

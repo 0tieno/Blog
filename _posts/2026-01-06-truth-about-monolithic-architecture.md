@@ -4,7 +4,7 @@ title: The Truth About Monolithic Architecture (It’s Not Just Scalability)
 date: 2026-01-06 09:00:00 +0300
 categories:
   - system design
-  - Monolith vs Microservices series
+  - monolith vs microservices series
 ---
 
 For years, monolithic architecture has been treated like a villain in modern software design. Scalability is often blamed as its fatal flaw, and microservices are presented as the cure-all.

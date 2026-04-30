@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge #5 - Sum of Digits in a Number"
 date: 2025-12-01 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 **Problem**: Write a Java program that sums the digits in a number — for example, 501 → 5 + 0 + 1 = 6.

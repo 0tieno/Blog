@@ -3,7 +3,7 @@ layout: post
 title: The Anatomy of a Java Program
 date: 2025-11-07 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 Java programs may seem complex at first, but they all share a common structure.
 In this post, we’ll dissect the structure of a simple Java program to understand its components and how they work together.

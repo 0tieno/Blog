@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge #3 - Calculate Rectangle Area"
 date: 2025-11-27 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 **Problem**: Write a Java program that calculates the area of a rectangle given its length and width. Include both hardcoded values and user input versions.

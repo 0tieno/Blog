@@ -3,7 +3,7 @@ type: post
 title: Java Variables and Primitive Data Types
 date: 2025-11-21 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll explore the foundation of Java programming: variables and primitive data types. Understanding these concepts is crucial for storing and manipulating data in your Java programs.

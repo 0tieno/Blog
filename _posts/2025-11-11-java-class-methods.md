@@ -3,7 +3,7 @@ layout: post
 title: Java Class Methods
 date: 2025-11-11 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 
 In the previous post, we learned about Java class attributes. Now, let's explore Java class methods.

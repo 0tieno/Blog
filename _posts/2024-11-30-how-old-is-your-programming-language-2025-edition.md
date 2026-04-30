@@ -3,8 +3,8 @@ layout: post
 title: How Old Is Your Programming Language (2025 Edition)
 date: 2025-11-30 12:24:59 +0300
 categories:
-  - Epiphanies
-  - Languages
+  - epiphanies
+  - languages
 ---
 
 

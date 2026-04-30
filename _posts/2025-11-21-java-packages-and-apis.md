@@ -3,7 +3,7 @@ type: post
 title: Java Packages and APIs
 date: 2025-11-21 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 A package in Java is used to group related classes. Think of it as **a folder in a file directory**. We use packages to avoid name conflicts, and to write better maintainable code.

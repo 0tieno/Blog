@@ -3,7 +3,7 @@ type: post
 title: Java Inheritance Basics
 date: 2025-11-23 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll explore one of the fundamental pillars of Object-Oriented Programming: inheritance. Inheritance allows you to create new classes based on existing ones, promoting code reuse and establishing relationships between classes.

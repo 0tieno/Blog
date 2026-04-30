@@ -3,7 +3,7 @@ type: post
 title: Java Strings and Type Conversion
 date: 2025-11-22 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll dive deep into Java Strings and explore how to convert between different data types. Strings are one of the most commonly used data types in Java programming.

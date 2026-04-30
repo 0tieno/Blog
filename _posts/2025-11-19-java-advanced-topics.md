@@ -3,7 +3,7 @@ type: post
 title: Java Advanced Topics - Enums, Dates, and More
 date: 2025-11-19 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll explore some advanced Java topics that are essential for building robust applications. We'll cover enums, date handling, and other important concepts.

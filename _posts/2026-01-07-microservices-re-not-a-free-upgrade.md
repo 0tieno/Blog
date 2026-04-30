@@ -4,7 +4,7 @@ title: Microservices Are Not a Free Upgrade
 date: 2026-01-07 09:00:00 +0300
 categories:
   - system design
-  - Monolith vs Microservices series
+  - monolith vs microservices series
 ---
 
 Microservices are often touted as the silver bullet for all architectural woes. The promise of independent deployability, scalability, and technology diversity is alluring in "modern" software architecture. Blogs, conference talks, and diagrams make them look clean, powerful, and mature.

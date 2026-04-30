@@ -3,7 +3,7 @@ type: post
 title: Java Return Values
 date: 2025-11-13 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 
 In the previous post, we learned about Java method parameters and we used the void keyword in all examples (like static void myMethod(int x)), which indicates that the method should not return a value.

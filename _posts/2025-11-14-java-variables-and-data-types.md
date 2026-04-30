@@ -3,7 +3,7 @@ type: post
 title: Java Variables and Data Types
 date: 2025-11-14 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll explore Java variables, data types, and how to work with them effectively. Understanding these concepts is fundamental to mastering Java programming.

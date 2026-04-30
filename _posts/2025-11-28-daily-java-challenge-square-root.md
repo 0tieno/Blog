@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge #4 - Square Root Calculation"
 date: 2025-11-28 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 **Problem**: Write a Java program that calculates and displays the square root of a number using the Math.sqrt() method.

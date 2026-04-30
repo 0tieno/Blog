@@ -3,7 +3,7 @@ layout: post
 title: What are Classes and Objects?
 date: 2025-11-09 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 
 As we learned in the previous post, Java is an Object-Oriented Programming (OOP) language and Classes and objects are the two main aspects of object-oriented programming.

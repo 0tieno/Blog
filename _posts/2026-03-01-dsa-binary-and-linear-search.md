@@ -3,7 +3,7 @@ type: post
 title: Binary and Linear Search Algorithms
 date: 2026-03-01 09:00:00 +0300
 categories:
-      - DSA - Java
+  - dsa - java
 ---
 
 This post is an intro to a series of dsa concepts revised.

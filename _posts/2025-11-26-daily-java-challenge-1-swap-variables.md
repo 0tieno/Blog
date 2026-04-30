@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge #1 - Swap Two Variables"
 date: 2025-11-26 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 **Problem**: Write a Java program that swaps the values of two variables without losing any data.

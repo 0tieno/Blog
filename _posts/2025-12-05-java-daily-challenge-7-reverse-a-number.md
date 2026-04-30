@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge #7 - Reverse a Number"
 date: 2025-12-05 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 **Problem**: Write a Java program that reverses a given integer number.

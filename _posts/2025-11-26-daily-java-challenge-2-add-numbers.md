@@ -3,8 +3,8 @@ type: post
 title: "Daily Java Challenge #2 - Add Two Numbers"
 date: 2025-11-26 09:00:00 +0300
 categories:
-  - Java
-  - Daily-Challenge
+  - java
+  - daily-challenge
 ---
 
 **Problem**: Write a Java program that adds two numbers and displays the result. Include both hardcoded values and user input versions.

@@ -4,7 +4,7 @@ title: The Modular Monolith — The Architecture Nobody Talks About
 date: 2026-01-09 09:00:00 +0300
 categories:
   - system design
-  - Monolith vs Microservices series
+  - monolith vs microservices series
 ---
 
 Software architecture discussions often feel polarized.

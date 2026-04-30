@@ -3,7 +3,7 @@ type: post
 title: Bubble sort Algorithm
 date: 2026-03-02 09:00:00 +0300
 categories:
-      - DSA - Java
+  - dsa - java
 ---
 
 Bubble Sort is a simple sorting algorithm that repeatedly compares adjacent elements in an array and swaps them if they are in the wrong order. This process continues until the array is sorted. It is not efficient for large datasets due to its high time complexity of O(n^2), but it is easy to understand and implement.

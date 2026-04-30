@@ -3,7 +3,7 @@ type: post
 title: The Secret to Mastering DSA, Recognizing Patterns
 date: 2026-03-06 09:00:00 +0300
 categories:
-  - DSA - Java
+  - dsa - java
 ---
 
 Most algorithm problems follow patterns. If you recognize the pattern, the solution becomes obvious.

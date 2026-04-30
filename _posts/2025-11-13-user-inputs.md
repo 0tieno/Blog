@@ -3,7 +3,7 @@ type: post
 title: User Inputs in Java
 date: 2025-11-13 12:30:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we will learn how to take user inputs in Java using the `Scanner` class.

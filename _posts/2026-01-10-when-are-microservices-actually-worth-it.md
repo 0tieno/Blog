@@ -4,7 +4,7 @@ title: When Are Microservices Actually Worth It?
 date: 2026-01-10 09:00:00 +0300
 categories:
   - system design
-  - Monolith vs Microservices series
+  - monolith vs microservices series
 ---
 
 Microservices are often treated as a badge of engineering maturity.

@@ -3,7 +3,7 @@ layout: post
 title: Java - What is OOP?
 date: 2025-11-08 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 
 Java is an Object-Oriented Programming (OOP) language. But what does that mean?

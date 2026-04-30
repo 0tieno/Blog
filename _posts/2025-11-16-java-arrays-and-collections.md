@@ -3,7 +3,7 @@ type: post
 title: Java Arrays and Collections
 date: 2025-11-16 09:00:00 +0300
 categories:
-  - Java
+  - java
 ---
 
 In this post, we'll explore Java arrays and collections - essential data structures that allow you to store and manipulate multiple values efficiently.

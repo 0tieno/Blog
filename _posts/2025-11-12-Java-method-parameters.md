@@ -3,7 +3,7 @@ layout: post
 title: Java Method Parameters
 date: 2025-11-12 12:24:59 +0300
 categories:
-  - Java
+  - java
 ---
 
 

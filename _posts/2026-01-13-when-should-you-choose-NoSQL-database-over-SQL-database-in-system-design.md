@@ -4,7 +4,7 @@ title: When Should You Choose NoSQL Database Over SQL Database in System Design?
 date: 2026-01-13 09:00:00 +0300
 categories:
   - system design
-  - Databases
+  - databases
 ---
 
 In our yesterday's post, [When Should You Choose SQL Database Over NoSQL Database in System Design?](/Blog/when-should-you-choose-SQL-database-over-NoSQL-database-in-system-design), we discussed scenarios favoring SQL databases. Today, we will explore when a NoSQL database like MongoDB or Cassandra is the better choice over a SQL database like MySQL or PostgreSQL in system design.

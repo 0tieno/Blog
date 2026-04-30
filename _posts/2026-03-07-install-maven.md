@@ -3,7 +3,7 @@ type: post
 title: Installing Apache Maven on Windows
 date: 2026-03-07 09:00:00 +0300
 categories:
-      - Java - Tools
+  - java - tools
 ---
 
 When working with Java backend projects, one tool you will encounter very quickly is Apache Maven. Maven is a build automation and dependency management tool that helps developers compile code, manage libraries, run tests, and package applications.
