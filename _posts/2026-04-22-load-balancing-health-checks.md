@@ -209,6 +209,6 @@ This demonstrates understanding of the algorithm tradeoffs, health check depth, 
 
 ## Related Post
 
-- [System Foundations: From One Server to Millions of Users](/Blog/system-foundations-from-one-server-to-millions-of-users/) — Understand why horizontal scaling requires a load balancer in the first place.
+- [System Foundations: From One Server to Millions of Users](/Blog/system-foundations/) — Understand why horizontal scaling requires a load balancer in the first place.
 
 Happy hacking!
