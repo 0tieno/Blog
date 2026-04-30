@@ -336,6 +336,6 @@ The technical foundation (FIDO2/WebAuthn) is already in every major browser and 
 
 ## Related Post
 
-- [Authentication and Authorization: Knowing Who They Are and What They Can Do](/Blog/authentication-and-authorization-knowing-who-they-are-and-what-they-can-do/) — How MFA fits into the broader authentication and authorization picture, including API keys, sessions, and JWTs.
+- [Authentication and Authorization: Knowing Who They Are and What They Can Do](/Blog/authentication-and-auhorization/) — How MFA fits into the broader authentication and authorization picture, including API keys, sessions, and JWTs.
 
 Happy hacking!
