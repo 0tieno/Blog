@@ -198,7 +198,7 @@ Everything above covers the first factor: proving your identity once. Modern sys
 
 Passkeys are the most important shift in authentication in years. Built on the FIDO2/WebAuthn standard, they use public-key cryptography so that no shared secret ever crosses the network. The private key stays on your device, the server only stores your public key, and the credential is cryptographically bound to the domain, making passkeys fully phishing-proof. Apple, Google, and Microsoft all support passkeys natively, and major services (GitHub, Google, Amazon) are actively rolling them out.
 
-These topics (TOTP, push auth, passkeys, SMS OTP tradeoffs, MFA fatigue attacks, and implementation details) are covered in depth in the companion file: **06b - Multi-Factor Authentication**.
+These topics (TOTP, push auth, passkeys, SMS OTP tradeoffs, MFA fatigue attacks, and implementation details) are covered in depth in the companion post: **Multi-Factor Authentication**.
 
 ## Part 2: Authorization Models
 
