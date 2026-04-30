@@ -15,7 +15,7 @@ When I think about how I’d like to spend my days alive (and consequently remem
 
 ### ~Not~ in the News
 
-- I maintain [securecloudX ](https://securecloudx.pages.dev) - a free & open source platform to learn Cloud Security Engineering & Cloud Penetration Testing! I love Software, cloud, DevOps and it's matter security.
+- I maintain [securecloudX ](https://securecloudx.xyz) - a free & open source platform to learn Cloud Security Engineering & Cloud Penetration Testing! I love Software, cloud, DevOps and it's matter security.
 - 2021-2025: Served the highest position of privilege on earth.
 
 ### 2025
