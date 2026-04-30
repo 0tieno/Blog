@@ -187,6 +187,6 @@ Each database handles what it is best at. PostgreSQL handles the money. Redis ha
 
 ## Related Post
 
-- [System Foundations: From One Server to Millions of Users](/Blog/system-foundations-from-one-server-to-millions-of-users/) — Learn the vertical vs. horizontal scaling tradeoffs that directly influence your database architecture decisions.
+- [System Foundations: From One Server to Millions of Users](/Blog/system-foundations/) — Learn the vertical vs. horizontal scaling tradeoffs that directly influence your database architecture decisions.
 
 Happy hacking!
