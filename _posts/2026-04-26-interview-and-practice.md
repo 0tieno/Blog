@@ -109,6 +109,8 @@ A background service generates millions of random 7-character codes and stores t
 
 **Interviewer:** Design a rate limiting system that can handle millions of API requests.
 
+You can read [here](https://blog.cloudflare.com/counting-things-a-lot-of-different-things) how cloudflare built rate limiting capable of scaling to millions of domains.
+
 ### Requirements Clarification
 
 "Should the rate limiter work per user, per IP, or per API key? What are the limits, for example 100 requests per minute? Should it be a standalone service or middleware? Do we need different limits for different endpoints? How should we handle distributed deployments with multiple API servers?"
