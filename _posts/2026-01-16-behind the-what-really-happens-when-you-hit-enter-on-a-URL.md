@@ -4,7 +4,7 @@ title: Behind the Click, What Really Happens When You Hit Enter on a URL
 date: 2026-01-16 09:00:00 +0300
 categories:
     - software
-  - epiphanies
+    - epiphanies
 ---
 
 Ever wondered what happens behind the scenes when you type a URL into your browser and hit Enter? Let’s take a shallow dive into the journey of a request to a sample site: [https://www.kyusda.org/](https://www.kyusda.org/)
