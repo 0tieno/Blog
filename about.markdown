@@ -22,7 +22,7 @@ This blog is OpenSource, published using [Jekyll](https://jekyllrb.com/) and can
 
 Inspired by [https://github.com/conradakunga/Blog](https://github.com/conradakunga/Blog)
 
-short story long - [https://www.ronneyotieno.me](https://www.ronneyotieno.me) [old version]
+short story long - [https://0tieno.github.io/iamronney](https://0tieno.github.io/iamronney)
 
 [Book a call with me](https://cal.com/i-am-ronney?redirect=false)
 
