@@ -1,6 +1,6 @@
 ---
 type: post
-title: Design for Data Redundancy in Microsoft Azure
+title: Designing for Data Redundancy in Microsoft Azure
 date: 2026-09-16 09:00:00 +0300
 categories:
   - cloud security
@@ -14,7 +14,7 @@ Sometimes bad things happen. Like planned or unplanned downtime, hardware failur
 
 Data redundancy is the process of storing the same data in multiple locations to ensure that it is always available, even in the event of a failure.
 
-Here is how we can achieve data redundancy in [Microsoft Azure](https://azure.microsoft.com/):
+As we discussed yesterday, we have 4 options for storing **non-relational data** in [Microsoft Azure](https://azure.microsoft.com/) and here is how we can achieve data redundancy for our stored data:
 
 ### 1. Azure Storage Redundancy Options
 
@@ -26,7 +26,7 @@ Azure provides several options for data redundancy, each with its own benefits a
 
 - **Geo-Redundant Storage (GRS)**: This option stores six copies of your data across two regions, with three copies in the primary region and three copies in the secondary region. It provides the highest level of protection against data center failures, but it is the most expensive option.
 
-![GRS-image](GRS-image.png)
+![GRS-image](../images/2025/2026/09/GRS-image.png)
 
 ### 2. Choosing the Right Redundancy Option
 
