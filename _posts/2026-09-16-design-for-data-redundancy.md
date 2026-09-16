@@ -14,7 +14,7 @@ Sometimes bad things happen. Like planned or unplanned downtime, hardware failur
 
 Data redundancy is the process of storing the same data in multiple locations to ensure that it is always available, even in the event of a failure.
 
-As we discussed yesterday, we have 4 options for storing **non-relational data** in [Microsoft Azure](https://azure.microsoft.com/) and here is how we can achieve data redundancy for our stored data:
+As we discussed [yesterday](./2026-09-15-design-data-storage-solution-for-non-relational-data.md), we have 4 options for storing **non-relational data** in [Microsoft Azure](https://azure.microsoft.com/) and here is how we can achieve data redundancy for our stored data:
 
 ### 1. Azure Storage Redundancy Options
 
