@@ -8,7 +8,7 @@ categories:
   - azure
 ---
 
-I was a victim of the [Iranian drone strikes that hit three AWS data centers in the UAE and Bahrain targeting Amazon cloud infrastructure](https://www.tomshardware.com/tech-industry/drone-strikes-hit-three-aws-data-centers-in-the-uae-and-bahrain) affecting my databases in MongoDB Atlas. I lost the client data and I couldn't recover it to date. It hit me hard and I stopped ignoring to also design for availability and safety in my applications.
+I was a victim of the [Iranian drone strikes that hit three AWS data centers in the UAE and Bahrain targeting Amazon cloud infrastructure](https://www.tomshardware.com/tech-industry/drone-strikes-hit-three-aws-data-centers-in-the-uae-and-bahrain) affecting my databases in MongoDB Atlas. I lost production data and I haven't been able to recover it to date. It hit me hard and I stopped ignoring to also design for availability and safety in my applications.
 
 Sometimes bad things happen. Like planned or unplanned downtime, hardware failures, or even natural disasters. When these things happen, how do you ensure that your data is safe and is still available? That's the all point of **data redundancy**.
 
