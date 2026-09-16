@@ -32,6 +32,10 @@ Azure provides several options for data redundancy, each with its own benefits a
 
 When choosing a redundancy option, you need to consider your business requirements and budget. If you have a small business with limited resources, LRS may be the best option for you. If you have a larger business with more critical data, ZRS or GRS may be a better choice.
 
+### TLDR
+
+Always design for failure as if it has happened. We can always achieve this with data redundancy. And always note the possible trade offs redundancy comes with like latency, cost, complexity, management, inconsistency etc.
+
 
 Happy hacking!
 
