@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-author: SWE | Cloud Security
+author: ronney otieno
 title: "I'm ronney - Backend Software & Security"
 email: "ronvi035@gmail.com"
 description: "If you are not getting better, you are getting worse."

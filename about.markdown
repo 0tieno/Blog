@@ -8,13 +8,9 @@ permalink: /about/
 
 `I do not know what I may appear to the world, but to myself I seem to have been only like a boy playing on the sea shore, and diverting myself in now and then finding a smooother pebble or a prettier shell than ordinary, whilist the greater ocean of truth lay all undiscovered before me.`
 
-In this blog I will be writing primarily about my learning on anything:
-
-- Backend Software, cloud, and DevOps, and their matter Security
+In this blog I will be writing primarily about my learning on: Cloud security, AI security, Application security, and Backend Software. 
 
 All posts assume no, or little, prior knowledge of the subject matter and therefore should be useful regardless of your level of experience.
-
-Currently backend intern at [the better option](https://www.safaricom.co.ke)
 
 LinkedIn - [Linkedin.com/in/ronney-otieno](https://www.linkedin.com/in/ronney-otieno)
 
