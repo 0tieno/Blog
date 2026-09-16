@@ -3,7 +3,7 @@ type: post
 title: Design Data Storage Solution for Non-Relational Data
 date: 2026-09-15 09:00:00 +0300
 categories:
-  - cloud
+  - cloud security
   - data storage
   - azure
 ---
