@@ -11,7 +11,7 @@ categories:
 
 A marketing team needs to serve product images, videos, and customer success stories to a global audience or maybe any public facing content. Traffic is growing fast, latency matters, and the content itself isn't secret — it's meant to be public. So why does this scenario still trip up so many teams?
 
-Because "public" gets misread as "no security needed." It isn't. This post walks through the architecture that real teams put in front of public content in Azure — the same pattern taught hands-on in [SecureCloudX Module 3, Lab 02](https://securecloudx.xyz/module3/task/phase3) — and is honest about the one gap in it that a lot of write-ups gloss over.
+Because "public" gets misread as "no security needed." It isn't. This post walks through the architecture that real teams put in front of public content in Azure — the same pattern taught hands-on in [SecureCloudX Module 3, Lab 02](https://securecloudx.xyz/module2/task/phase2) — and is honest about the one gap in it that a lot of write-ups gloss over.
 
 ## The scenario
 
@@ -68,6 +68,6 @@ Most public-content scenarios stop at row 3. Row 4 is for when "public" content 
 
 This isn't an academic pattern — it's the same shape you'll find behind CDN-fronted static sites at any company serving global content: edge cache for performance, storage-layer resilience for recoverability, scoped anonymous access for blast-radius control, and detection for the gap the network layer can't close. If you're the engineer asked to "put some files somewhere the website can read them," this is the version of that answer that survives a security review.
 
-Try it hands-on in [Module 3, Lab 02: Secure Public Website Storage](https://securecloudx.xyz/module3/task/phase3) — it walks through provisioning every piece of this diagram, including the CDN/Front Door step and the Defender for Storage step, step by step.
+Try it hands-on in [Module 3, Lab 02: Secure Public Website Storage](https://securecloudx.xyz/module2/task/phase2) — it walks through provisioning every piece of this diagram, including the CDN/Front Door step and the Defender for Storage step, step by step.
 
 Happy hacking!
