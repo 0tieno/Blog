@@ -2,14 +2,11 @@
 layout: post
 title: "The Cyber Resilience Architecture Behind Serving Public Facing Content from Azure Storage"
 date: 2026-09-17
-author: s!rr0nn3y
 categories:
   - azure
   - storage
   - architecture
-  - cloudsecurity
-associated_lab_title: Data Security
-associated_lab_day: 3
+  - cloud security
 ---
 
 A marketing team needs to serve product images, videos, and customer success stories to a global audience or maybe any public facing content. Traffic is growing fast, latency matters, and the content itself isn't secret — it's meant to be public. So why does this scenario still trip up so many teams?
