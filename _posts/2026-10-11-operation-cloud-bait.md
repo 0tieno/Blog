@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Operation: Cloud Bait · Azure honeypot field notes in Four minutes and forty‑eight seconds"
+title: "Operation: Cloud Bait · Azure honeypot field notes in Four minutes and forty‑eight seconds. Azure · Cowrie · Azure Monitor Agent · Log Analytics · KQL · DCR · DCE"
 date: 2026-10-11
 categories:
   - cloud security
@@ -9,23 +9,21 @@ categories:
   - security
 ---
 
-# Four minutes and forty‑eight seconds
-
 I built a deliberately tempting, deliberately harmless server in Azure, told nobody its address, and wired every keystroke into Log Analytics. This is how it was built, what broke along the way, and what the internet did to it.
 
-11 October 2026Azure · Cowrie · Azure Monitor Agent · KQL\~25 min read
 
-**4m 48s**from exposure to first attack
 
-**579**SSH and Telnet sessions
+**4m 48s** from exposure to first attack
 
-**563**password guesses
+**579** SSH and Telnet sessions
 
-**774**commands typed into a fake shell
+**563** password guesses
 
-**23**source IPs
+**774** commands typed into a fake shell
 
-**13**countries
+**23** source IPs
+
+**13** countries
 
 First 71 minutes after exposure (06:07–07:18 UTC). The experiment keeps running until 15 October.
 
@@ -46,7 +44,7 @@ First 71 minutes after exposure (06:07–07:18 UTC). The experiment keeps runnin
 13. [Security lessons](#lessons)
 14. [Cost and cleanup](#cleanup)
 
-## 01Why build a honeypot
+## 01 Why build a honeypot
 
 I'm opening an introduction-to-cloud-security session, and I wanted to start with evidence instead of slides. The hypothesis was simple:
 
@@ -60,7 +58,7 @@ Design principle
 
 The second principle followed from the first: **monitoring is verified before anything is exposed**. A honeypot that starts logging an hour late has already lost its most interesting number, the time to first contact.
 
-## 02Architecture
+## 02 Architecture
 
 One small Ubuntu VM in its own resource group, fronted by a network security group. Two deception services run on it: Cowrie for SSH and Telnet, and a fake corporate web portal. The Azure Monitor Agent ships their logs through a data collection rule into a Log Analytics workspace, where KQL turns them into a workbook and a live slide deck.
 
@@ -102,7 +100,7 @@ Everything lives in one resource group, so a single `az group delete` removes th
 | Analysis | Log Analytics + KQL, Azure Workbook | Queryable evidence, with built-in IP geolocation |
 | Infrastructure as code | Bash + `az` CLI in phases | Each phase can be verified before the next one runs |
 
-## 03Isolation and the network
+## 03 Isolation and the network
 
 The subscription also hosts unrelated production resource groups, so isolation was the first job, not an afterthought. Everything sits in `cloud-bait-rg`, tagged `delete-after=2026-10-16`, inside its own VNet (`10.50.0.0/16`) with **no peering, no VPN gateway and no private endpoints**. There's no network path from the honeypot to anything else I own.
 
@@ -127,16 +125,16 @@ The inbound honeypot rule starts locked to my own IP. Opening it to `Internet` i
 infra/deploy.sh: expose
 
 ```
-az network nsg rule update -g "$RG" --nsg-name "$NSG" -n Honeypot-Ingress \
-    --source-address-prefixes Internet -o none
-T=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-echo "EXPOSED at $T" | tee -a "$ROOT/EXPOSURE_TIME.txt"
-# stamp the exposure time into every dashboard query, then redeploy the workbook
-set +f; sed -i "s/^let exposed = todatetime(\"[^\"]*\")/let exposed = todatetime(\"$T\")/" "$ROOT"/queries/*.kql
-"$0" dashboard
+  az network nsg rule update -g "$RG" --nsg-name "$NSG" -n Honeypot-Ingress \
+      --source-address-prefixes Internet -o none
+  T=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+  echo "EXPOSED at $T" | tee -a "$ROOT/EXPOSURE_TIME.txt"
+  # stamp the exposure time into every dashboard query, then redeploy the workbook
+  set +f; sed -i "s/^let exposed = todatetime(\"[^\"]*\")/let exposed = todatetime(\"$T\")/" "$ROOT"/queries/*.kql
+  "$0" dashboard
 ```
 
-## 04Getting the real SSH out of the way
+## 04 Getting the real SSH out of the way
 
 The internet expects SSH on port 22, so Cowrie needs port 22, and the real `sshd` has to move. You never want internet traffic reaching the real daemon on a honeypot.
 
@@ -164,7 +162,7 @@ systemctl restart ssh.socket
 
 The empty `ListenStream=` clears the default before adding the new one. The NSG rule for 22022 existed before this ran, so there was no window in which I could lock myself out. The admin key is a dedicated ed25519 key generated for this project alone. Only its public half is on the VM.
 
-## 05Cowrie: the fake shell
+## 05 Cowrie: the fake shell
 
 [Cowrie](https://github.com/cowrie/cowrie) is a medium-interaction SSH and Telnet honeypot. It accepts logins, presents an emulated filesystem and shell, and logs connections, credentials, commands and download attempts as structured JSON. It runs as an unprivileged `cowrie` user, so it can't bind ports below 1024. iptables redirects the public ports to its listeners instead:
 
@@ -197,7 +195,7 @@ listen_endpoints = tcp:2223:interface=0.0.0.0
 
 That turned out to be relevant: within the first hour, a bot ran a script built specifically to tell real shells from emulated ones. More on that in [the results](#results).
 
-## 06The fake web application
+## 06 The fake web application
 
 The web bait is a portal for **Kipeo Digital Services**, a fictional East African payments company. I deliberately didn't use any real brand. It's about 250 lines of Python using only the standard library (`http.server`), behind nginx, which terminates TLS with a self-signed certificate. Scanners don't care about the certificate warning, and there's no dependency tree to patch or exploit.
 
@@ -225,7 +223,7 @@ app/cloudbait_web.py: one log record
 
 One rule I held to: **a honeypot shouldn't be "fully vulnerable".** No ancient OpenSSH, no exploitable PHP, no real credentials. Automated traffic produces reconnaissance, brute force and exploit probing without any of those, and the deception layer captures behaviour without handing anyone a real server.
 
-## 07Telemetry: AMA, DCR and custom tables
+## 07 Telemetry: AMA, DCR and custom tables
 
 This is where the original plan would have failed quietly. It assumed a Syslog data source would capture the attacks. It wouldn't have: Cowrie writes `var/log/cowrie/cowrie.json` and the web app writes `/var/log/cloudbait/web.json`, and neither goes anywhere near syslog. A Syslog-only DCR shows heartbeats and system noise, and none of the attack data.
 
@@ -270,7 +268,7 @@ Using the event's own timestamp as `TimeGenerated` means the charts show when th
 - **File tailing uses a multiline parser.** The generated fluent-bit config attaches a multiline parser that starts a new record on lines beginning with an ISO-8601 timestamp. JSON lines start with `{`, so I expected every record to merge into one. In practice, lines that don't match the start state pass through one per line, which I confirmed by checking `strlen(RawData)` per row. Verify this rather than assume it.
 - **Two processes, two users.** `mdsd` runs as `syslog`, while fluent-bit, which tails the files, runs as root. I added `syslog` to the `cowrie` group anyway, so the agent can read the logs whichever process does the reading.
 
-## 08The identity paradox
+## 08 The identity paradox
 
 The plan said: *don't give the honeypot a managed identity.* The Azure Monitor Agent says otherwise. It authenticates to the ingestion endpoint with one, and associating a DCR through the portal quietly enables a system-assigned identity on the VM.
 
@@ -288,7 +286,7 @@ Least privilege in its purest form: the workload needs no Azure permissions, so 
 
 What remains possible for an attacker with root on the VM: sending junk into this workspace (data poisoning, plus some ingestion cost, which a daily cap would bound) and the DNS path described above. Neither touches the rest of the subscription.
 
-## 09Testing before exposure
+## 09 Testing before exposure
 
 Exposure is a one-way door for the "time to first attack" metric, so everything was tested end to end while the NSG still admitted only my IP. `tests/selftest.sh` generates traffic tagged with a unique ID and then polls Log Analytics until that exact traffic shows up:
 
@@ -319,7 +317,7 @@ Exposure is a one-way door for the "time to first attack" metric, so everything 
 
 The scripted SSH login uses `SSH_ASKPASS` with `SSH_ASKPASS_REQUIRE=force` to feed a password non-interactively, with no `sshpass` needed. The order mattered: test, apply the egress deny, **test again**, and only then expose. The second run caught nothing wrong with egress, but it did catch a bug in the test. It expected seven tagged web requests when only six carried the tag, so it waited fifteen minutes for data that had arrived in one.
 
-## 10What the internet did
+## 10 What the internet did
 
 The NSG opened at **06:07:20 UTC**. The first connection, an SSH session, arrived at **06:12:08 UTC**. Nobody had been given the address. A scanner simply found it.
 
@@ -402,7 +400,7 @@ Only five web requests arrived in the first hour, against hundreds of SSH sessio
 
 Traffic came from 13 countries: Bulgaria, Romania, South Korea, India, Bangladesh, Canada, China, Russia and others. KQL's `geo_info_from_ip_address()` makes this a one-liner, and it's easy to over-read. The location belongs to the *machine*, which is usually a compromised device or a rented server, not to the person operating it.
 
-## 11Dashboards and a live slide deck
+## 11 Dashboards and a live slide deck
 
 All eleven dashboard queries share a header that excludes my own traffic and anchors everything to the exposure time:
 
@@ -439,7 +437,7 @@ For the talk itself I built a separate **live slide deck**: a zero-dependency No
 - **Hostile input stays inert.** Every attacker-controlled string (usernames, passwords, commands, URLs) is rendered through `textContent`, never `innerHTML`, and the page sends a strict Content-Security-Policy. When your data source is a honeypot, your dashboard is an attack surface.
 - **Privacy and resilience.** IPs are masked to `a.b.x.x`. Each successful refresh is saved to disk, so if the network drops, the slides show the last data with an "offline · as of" label.
 
-## 12Gotchas
+## 12 Gotchas
 
 None of these were hard; all of them cost time. In rough order of appearance:
 
@@ -452,7 +450,7 @@ None of these were hard; all of them cost time. In rough order of appearance:
 - **Mermaid isn't Markdown.** A `;` inside a sequence-diagram message ends the statement, and a colon in a Gantt task name breaks the parser. Validate diagrams with `mermaid-cli` before publishing.
 - **Front-end temporal dead zone.** The slide deck crashed only when opened directly on the counters slide, because navigation ran before the `const` declarations it touched. A screenshot of every slide via its URL hash caught it.
 
-## 13Security lessons
+## 13 Security lessons
 
 The point of the experiment is the talk, and the point of the talk is that the honeypot's defenses are the same ones any real workload needs:
 
@@ -467,7 +465,7 @@ The point of the experiment is the talk, and the point of the talk is that the h
 
 And the headline lesson: **obscurity isn't a control.** An unpublicised IP address bought four minutes and forty-eight seconds.
 
-## 14Cost and cleanup
+## 14 Cost and cleanup
 
 One B-series VM, a Standard public IP and a few megabytes of log ingestion a day: a few dollars over the life of the experiment. I deliberately left out a daily auto-shutdown, which would break collection every night. The kill switch is `az vm deallocate`, and the evidence is already safe in Log Analytics. After the presentation:
 
@@ -492,3 +490,7 @@ presenter/               local live slide deck
 ```
 
 Operation: Cloud Bait ran from 11 to 15 October 2026 in an isolated Azure resource group. All data served by the honeypot was synthetic, and attacker IP addresses are omitted or masked. If you build your own, keep the order: isolate, monitor, test, then expose.
+
+Full code and architecture can be found in my [GitHub](https://github.com/0tieno/honeypot).
+
+Happy hacking!
