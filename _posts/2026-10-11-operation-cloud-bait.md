@@ -507,6 +507,16 @@ presenter/               local live slide deck
 
 Operation: Cloud Bait ran from 11 to 15 October 2026 in an isolated Azure resource group. All data served by the honeypot was synthetic, and attacker IP addresses are omitted or masked. If you build your own, keep the order: isolate, monitor, test, then expose.
 
+## what happened at the end of 15th October 2026. Four Days of Experiment
+
+![Operation Cloud Bait: Four Days of Experiment](../images/2025/2026/10/machines-hit.png)
+
+![Operation Cloud Bait: Four Days of Experiment](../images/2025/2026/10/activity-grapgh.png)
+
+![Operation Cloud Bait: Four Days of Experiment](../images/2025/2026/10/guessed-commands.png)
+
+![Operation Cloud Bait: Four Days of Experiment](../images/2025/2026/10/the-twist.png)
+
 Full code and architecture can be found in my [GitHub](https://github.com/0tieno/honeypot).
 
 Happy hacking!
