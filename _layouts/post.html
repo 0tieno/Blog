@@ -24,3 +24,6 @@ layout: default
   </div>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+{%- if content contains 'language-mermaid' -%}
+<script type="module" src="{{ '/assets/mermaid.js' | relative_url }}"></script>
+{%- endif -%}
